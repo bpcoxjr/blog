@@ -21,7 +21,7 @@ description: "The personal blog of Durham, NC web developer Patrick Cox"
 keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, North Carolina, Patrick Cox"
 
 # Site settings
-url: http://bpcoxjr.com
+url: http://bpcoxjr.github.io
 baseurl: '/the-run-down'
 # baseurl: ""
 
