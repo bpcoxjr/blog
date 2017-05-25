@@ -14,7 +14,8 @@ body.home-intro {
   padding: 0 $base-spacing;
   text-align: center;
   color: $lighter-gray-color;
-  background: darken($primary-color, 6%);
+  //background: darken($primary-color, 6%);
+  background: linear-gradient(to top, $blue-color, darken($primary-color, 6%));
   overflow: hidden;
 }
 
@@ -34,6 +35,11 @@ body.home-intro {
   @include media($min-tablet-large) {
     padding: 9em 0;
   }
+}
+
+.intro-title {
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .intro-title,
@@ -61,7 +67,6 @@ body.home-intro {
   font-size: 1.2em;
   font-family: $serif-font-family;
   font-weight: $font-weight-normal;
-  font-style: italic;
 
   @include media($min-tablet-large) {
     font-size: 1.6rem;
