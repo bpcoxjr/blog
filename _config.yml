@@ -18,7 +18,7 @@ highlighter : pygments
 # SEO settings
 title: The Run Down
 description: "The personal blog of Durham, NC web developer Patrick Cox"
-keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, North Carolina, Patrick Cox"
+keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, Raleigh, North Carolina, Patrick Cox"
 
 # Site settings
 url: http://bpcoxjr.github.io
@@ -32,7 +32,7 @@ author:
   bio       : "Durham, NC-based front-end web developer, always learning, always laughing, always drinking good coffee.  And bourbon."
   thumb     : /images/author.jpg
   email     : bpatrickcoxjr@gmail.com
-  url       : http://bpcoxjr.com
+  url       : http://bpcoxjr.github.io/bpcoxjrportfolio/dist/index.html
   github    : http://github.com/bpcoxjr
   twitter   : http://twitter.com/bpcoxjr
   facebook  : http://facebook.com/bpcoxjr

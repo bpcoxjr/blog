@@ -2,8 +2,8 @@
 .button {
   appearance: none;
   background-color: $primary-color;
-  border: 0;
-  border-radius: $base-border-radius;
+  border: $button-border !important;
+  border-radius: $button-border-radius;
   color: $white-color;
   cursor: pointer;
   display: inline-block;
