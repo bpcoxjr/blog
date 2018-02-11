@@ -18,7 +18,7 @@ highlighter : pygments
 
 # SEO settings
 title: The Run Down
-description: "The personal blog of Durham, NC web developer Patrick Cox"
+description: "The personal blog of Durham, NC-based web developer Patrick Cox"
 keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, North Carolina, Patrick Cox"
 
 # Site settings
