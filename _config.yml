@@ -16,9 +16,10 @@ markdown    : kramdown
 highlighter : rouge
 
 # SEO settings
-title: The Run Down
+title: "display: blog"
 description: "The personal blog of Durham, NC web developer Patrick Cox"
-keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, Raleigh, North Carolina, Patrick Cox"
+keywords: "blog, web developer, web development, web design, JavaScript, HTML, CSS, Durham, Raleigh, Chapel Hill,
+beginner, coding, junior web developer, front-end development, tutorial, North Carolina, Patrick Cox"
 
 # Site settings
 url: http://bpcoxjr.github.io
