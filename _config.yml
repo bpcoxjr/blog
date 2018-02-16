@@ -5,7 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-source: source
 destination: _site
 sass:
   sass_dir: _sass
@@ -14,23 +13,24 @@ sass:
 # permalink and highlighter
 permalink   : /:year/:title/
 markdown    : kramdown
-highlighter : pygments
+highlighter : rouge
 
 # SEO settings
-title: The Run Down
-description: "The personal blog of Durham, NC-based web developer Patrick Cox"
-keywords: "blog, web developer, web development, JavaScript, HTML, CSS, Durham, North Carolina, Patrick Cox"
+title: "display: blog"
+description: "The personal blog of Durham, NC web developer Patrick Cox"
+keywords: "blog, web developer, web development, web design, JavaScript, HTML, CSS, Durham, Raleigh, Chapel Hill,
+beginner, coding, junior web developer, front-end development, tutorial, North Carolina, Patrick Cox"
 
 # Site settings
-url: http://bpcoxjr.com
-baseurl: "/blog"
+url: http://bpcoxjr.github.io
+baseurl: '/display-blog'
 # baseurl: ""
 
 # Author settings
 author:
   name      : B. Patrick Cox, Jr.
   job       : Frontend Engineer
-  bio       : "Durham, NC-based front-end web developer, always learning, always laughing, always drinking good coffee."
+  bio       : "Durham, NC-based front-end web developer, always learning, always laughing, always drinking good coffee.  And bourbon."
   thumb     : /images/author.jpg
   email     : bpatrickcoxjr@gmail.com
   url       : http://bpcoxjr.com
@@ -40,6 +40,6 @@ author:
   linkedin  : http://linkedin.com/in/bpcoxjr
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/bpcoxjr/blog
+repo: http://github.com/bpcoxjr/display-blog
 
 # comments

@@ -40,6 +40,16 @@
 }
 
 .post-item {
+  header {
+    font-family: $base-font-family;
+  }
+  p {
+    font-family: $serif-font-family;
+  }
+}
+
+
+.post-item {
   padding-bottom: $base-spacing;
   margin-bottom: $base-spacing;
   border-bottom: 1px solid lighten($base-border-color, 5%);
@@ -56,4 +66,8 @@
   &:last-child {
     border: none;
   }
+}
+
+.post-content {
+  font-family: $serif-font-family;
 }
