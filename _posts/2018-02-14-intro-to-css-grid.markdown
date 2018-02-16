@@ -69,7 +69,7 @@ So what have we done here?  We've added a property called grid-template-columns 
 
 This is what you should see in the browser:
 
-![grid-columns-rows](/display-blog/assets/images/css_grid/grid_columns_rows.png){: .center-image}
+![grid-columns-rows](/assets/images/css_grid/grid_columns_rows.png){: .center-image}
 
 Easy enough.  Let's change the values of our two new properties, just to make sure we understand the relationship.
 
@@ -81,7 +81,7 @@ Easy enough.  Let's change the values of our two new properties, just to make su
 }
 {% endhighlight %}
 
-![columns-rows-adjusted](/display-blog/assets/images/css_grid/columns_rows_adjusted.png){: .center-image}
+![columns-rows-adjusted](/assets/images/css_grid/columns_rows_adjusted.png){: .center-image}
 
 Just as we'd expect, the first and third columns, at 200px wide, are twice as wide as the second column, at 100px wide.  And at 100px in height, our first row is twice as tall as our second row, at 50px. Okay, cool.  But what if we want our grid items to be wider than the column they're in, or taller than their row?  Enter the grid-column and grid-row properties.
 
@@ -102,7 +102,7 @@ Our two above CSS rules can be simplified into a single rule, like so:
 }
 {% endhighlight %}
 
-![column-start-end](/display-blog/assets/images/css_grid/column_start_end.png){: .center-image}
+![column-start-end](/assets/images/css_grid/column_start_end.png){: .center-image}
 
 Let's talk a little bit about what's going on here.  Setting grid-column-start to a value of 1 means we want our item to start at the left edge of the first column, while setting grid-column-end to a value of 3 means go to the 3rd defined column, which in this case is the left edge of the third column (each column has a left and right edge).  If we wanted item1 to span the full width of the grid, we would set grid-column-end to a value of 4.  Additionally, notice how although we have only defined two rows in our CSS rules, items wrap onto the next available row, and in the case of item6, a whole new row altogether.  You'll also notice item6 inherited the height that we defined for our first grid row.
 
@@ -114,7 +114,7 @@ The grid-row-start/grid-row-end and short-hand grid-row properties work similarl
 }”
 {% endhighlight %}
 
-![grid-row](/display-blog/assets/images/css_grid/grid_row.png){: .center-image}
+![grid-row](/assets/images/css_grid/grid_row.png){: .center-image}
 
 To confirm our grasp of how these CSS grid properties work, let's use a mix of grid-column and grid-row on our grid.
 
@@ -132,7 +132,7 @@ To confirm our grasp of how these CSS grid properties work, let's use a mix of g
 
 Here's our result:
 
-![grid-column-grid-row-combo](/display-blog/assets/images/css_grid/grid_column_grid_row_combo.png){: .center-image}
+![grid-column-grid-row-combo](/assets/images/css_grid/grid_column_grid_row_combo.png){: .center-image}
 
 Something to notice here is that the grid items that have no specific rules written for them (items 2, 5, and 6) adapt to the rules of the other grid items, and take up the remaining space.
 
