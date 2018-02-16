@@ -23,7 +23,7 @@ beginner, coding, junior web developer, front-end development, tutorial, North C
 
 # Site settings
 url: http://www.displayblog.io
-baseurl: '/display-blog'
+baseurl: '/'
 # baseurl: ""
 
 # Author settings
