@@ -2,7 +2,7 @@
 layout: post
 title: "Intro to CSS Grid"
 permalink: "intro-to-css-grid"
-date: 2018-02-16
+date: 2018-02-19
 categories: css
 ---
 
