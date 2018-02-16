@@ -6,7 +6,7 @@ date: 2018-02-16
 categories: css
 ---
 
-#Welcome to the very first tutorial here at display:blog!
+# Welcome to the very first tutorial here at display:blog!
 
 As I'm sure you've gathered from the title of this post, we're going to get our feet wet with CSS grid.  Why CSS grid?  Because having a firm grasp on a grid system is fundamental to building modern, responsive websites that look good across screens of all sizes, and CSS grid (in my opinion) is the not only the most powerful option available today, but is also easy to learn.
 
