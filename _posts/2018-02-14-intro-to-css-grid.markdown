@@ -53,7 +53,7 @@ Okay, cool.  But this is just basic HTML.  How do we give it magical CSS grid po
 
 Congratulations.  You just created your first CSS grid.  Let's see what it looks like (Note that I have included other CSS that you will not see here, just to make it prettier, but that CSS has no effect on grid layout or behavior).
 
-![intial-grid](/display-blog/assets/images/css_grid/initial_grid.png){: .center-image}
+![intial-grid](/assets/images/css_grid/initial_grid.png){: .center-image}
 
 Right now you're probably thinking to yourself that this doesn't look like any grid you've ever seen.  Well, that's because we haven't defined any real rules to what we want our grid to look like, and how we want it to behave.  What you're seeing right now is the default layout of a CSS grid.  We haven't defined any columns at all, so the six rows we defined are taking up the entire width of the browser.  Let's take a look at how we can change that by adding a rule that defines our columns and rows.
 
