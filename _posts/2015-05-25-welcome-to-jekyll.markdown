@@ -12,6 +12,6 @@ I recently discovered that I learn best through helping to teach others, so you 
 
 Additionally, I plan to post a weekly round-up of helpful or just plain cool stuff I find that I think others could benefit from reading.
 
-To learn a little bit more about myself and the blog, start [here](https://www.displayblog.io/about)
+To learn a little bit more about myself and the blog, start [here](https://www.displayblog.io/about-display-blog).
 
 Let's get started!
