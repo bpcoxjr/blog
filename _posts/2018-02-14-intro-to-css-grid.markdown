@@ -8,9 +8,9 @@ categories: css
 
 # Welcome to the very first tutorial here at display:blog!
 
-As I'm sure you've gathered from the title of this post, we're going to get our feet wet with CSS grid.  Why CSS grid?  Because having a firm grasp on a grid system is fundamental to building modern, responsive websites that look good across screens of all sizes, and CSS grid (in my opinion) is the not only the most powerful option available today, but is also easy to learn.
+As I'm sure you've gathered from the title of this post, we're going to get our feet wet with CSS grid.  Why CSS grid?  Because having a firm grasp on a grid system is fundamental to building modern, responsive websites that look good across screens of all sizes, and CSS grid (in my opinion) is not only the most powerful option available today, but is also easy to learn.
 
-If you've dabbled in front-end development for any amount of time, you're probably familiar with other grid systems.  There is no shortage of available options.  [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid/) is probably the most popular, but others like [Foundation](https://foundation.zurb.com/grid.html) and [Bourbon Neat](https://neat.bourbon.io) have also gained some traction in the fast-changing front-end world.  With such a crowded grid-focused space, was CSS really needed?  YES!
+If you've dabbled in front-end development for any amount of time, you're probably familiar with multiple other grid systems.  There is no shortage of available options.  [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid/) is probably the most popular, but others like [Foundation](https://foundation.zurb.com/grid.html) and [Bourbon Neat](https://neat.bourbon.io) have also gained some traction in the fast-changing front-end world.  With such a crowded grid-focused space, was CSS really needed?  YES!
 
 CSS grid has gained major traction to date, with a quick check of its adoption rate among major browsers at [almost 87%](https://caniuse.com/#feat=css-grid)
 
