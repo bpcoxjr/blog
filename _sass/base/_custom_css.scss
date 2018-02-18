@@ -6,3 +6,14 @@
 .post-item p {
   font-size: 1.25rem;
 }
+
+.back-to-blog {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.back-to-blog:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
