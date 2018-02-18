@@ -1,12 +1,17 @@
 ---
 layout: post
 title:  "Welcome to display: blog!"
-permalink:  "welcome"
+permalink:  "welcome-to-display-blog"
 date:   2018-02-12
 categories: general
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Welcome!  You've stumbled upon the first post here at display: blog.  I'm happy to have you join me.  My name is Patrick Cox, and I'm a front-end web developer based in Durham, North Carolina.  Nearly two years into my career as a developer, I decided to start this blog because I believe it will help me continue to learn as much as possible about the fast-paced, ever-changing ecosystem that is front-end development.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I recently discovered that I learn best through helping to teach others, so you can expect to regularly find tutorials here on HTML, CSS, and JavaScript.
+
+Additionally, I plan to post a weekly round-up of helpful or just plain cool stuff I find that I think others could benefit from reading.
+
+To learn a little bit more about myself and the blog, start [here](https://www.displayblog.io/about)
+
+Let's get started!
