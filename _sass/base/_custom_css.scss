@@ -10,7 +10,11 @@
 }
 
 .outside-link {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.outside-link:hover {
+  text-decoration: underline;
 }
 
 
