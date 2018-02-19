@@ -94,3 +94,23 @@ The fractional unit can be used in place of pixels to set the width on our colum
 All we've done here is replace pixel units with the fractional unit.  Let's take a look at how it behaves:
 
 ![fr usage css grid](/assets/images/fr_usage.gif){: .center-image}
+
+Now we're seeing the type of real responsiveness we've grown to expect from the modern web!  So what's going on here?
+
+Well, if you'll recall from our [first post](https://www.displayblog.io/intro-to-css-grid) with CSS grid we aren't beholden to a 12 column grid that all the other grid systems are based on.  And that's because CSS Grid offers us the powerful 'fr'.  The fractional unit works by taking into account the value of the other fractional units around it.  In our example, by setting each of our three columns to 1fr, we are telling the browser that the total width available to our grid is 3 fractional units, and each column should take up 1/3 of the available space.  
+
+Let's take a look at another example:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: repeat(2, 50px);
+}
+{% endhighlight %}
+
+![unequal fr usage css grid](/assets/images/unequal_fr_usage.gif){: .center-image}
+
+This should make it much clearer about how the fractional unit works.  We set our first two columns to a 1fr, and our third column to 2fr, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
+
+<span style="font-weight: 300;">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right.</span>
