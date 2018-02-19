@@ -140,7 +140,7 @@ Something to notice here is that the grid items that have no specific rules writ
 
 While we're on the topic of talking about the grid-column and grid-row properties, here's a quick tip if you want a grid item to span the full width of the grid, without having to count the number of grid column lines.  Set the first grid-column value to 1, and the second to -1.
 
-{% hightlight css %}
+{% highlight css %}
 .item1 {
   grid-column: 1 / -1;
 }
