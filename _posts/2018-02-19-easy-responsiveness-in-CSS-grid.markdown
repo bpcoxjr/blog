@@ -76,3 +76,21 @@ What we've done here is refrain from explicitly setting the number of columns to
 Here's a GIF to illustrate how that behavior works:
 
 ![auto-fit css grid](/assets/images/auto_fit.gif){: .center-image}
+
+Okay, that's sort of cool...I guess.  We've got some bare minimum responsiveness.  But we can do a heck of a lot better!
+
+Meet your new best friend, the fractional unit('fr').
+
+The fractional unit can be used in place of pixels to set the width on our columns.  Let's take a look at our original CSS, ignoring the usage of repeat we just learned:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 50px);
+}
+{% endhighlight %}
+
+All we've done here is replace pixel units with the fractional unit.  Let's take a look at how it behaves:
+
+![fr usage css grid](/assets/images/fr_usage.gif){: .center-image}
