@@ -75,4 +75,4 @@ What we've done here is refrain from explicitly setting the number of columns to
 
 Here's a GIF to illustrate how that behavior works:
 
-![auto-fit css grid](/assets/images/auto_fit.gif)
+![auto-fit css grid](/assets/images/auto_fit.gif){: .center-image}
