@@ -47,7 +47,7 @@ No matter how we adjust our browser window size - wider, narrower, etc. our thre
 
 Let's change that.
 
-First, let's shorten up how we establish our three columns and two rows, with a simple change.  Introducing repeat:
+First, let's shorten up how we establish our three columns and two rows, with a simple change.  Introducing the repeat function:
 
 {% highlight css %}
 .container {
@@ -57,7 +57,7 @@ First, let's shorten up how we establish our three columns and two rows, with a 
 }
 {% endhighlight %}
 
-Here we're telling the browser to display our grid exactly the same as before, we're just doing it slightly different.  Using repeat tells the browser to repeat (DUH!) what's inside the parentheses.  The first parameter we pass is the number of columns and rows we want to...wait for it...repeat (in our case 3 and 2, respectively), and the second parameter is the width (in the case of the columns, 100px) and height (in the case of the rows, 50px).  Easy, right?  But we still haven't tackled the obstacle of responsiveness!  Continuing on...
+Here we're telling the browser to display our grid exactly the same as before, we're just doing it slightly different.  Using the repeat function tells the browser to repeat (DUH!) what's inside the parentheses.  The first parameter we pass is the number of columns and rows we want to...wait for it...repeat (in our case 3 and 2, respectively), and the second parameter is the width (in the case of the columns, 100px) and height (in the case of the rows, 50px).  Easy, right?  But we still haven't tackled the obstacle of responsiveness!  Continuing on...
 
 Let's assume there are, for whatever reason, use cases where we actually want columns to be fixed at certain pixel widths, and rows to be fixed at certain heights (Hey, it's the internet.  There are crazy use cases for everything!).  Well, we can achieve that and still have some responsiveness simply by adding one additional element to our above CSS.  Introducing, auto-fit:
 
@@ -113,4 +113,16 @@ Let's take a look at another example:
 
 This should make it much clearer about how the fractional unit works.  We set our first two columns to a 1fr, and our third column to 2fr, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
 
-<span style="font-weight: bold; font-size: 1.25em">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right.</span>
+<span style="font-weight: bold; font-size: 1.25em">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right across the screen.</span>
+
+The third piece to our CSS grid puzzle with regard to responsiveness is the minmax function.  Minmax does exactly what you'd probably guess it sounds like it should: it allows us to set a minimum value for our column widths, as well as a max.  Here's the syntax and resulting behavior:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(150px, 1fr));
+  grid-template-rows: repeat(2, 50px);
+}
+{% endhighlight %}
+
+![minmax usage css grid](/assets/images/minmax_usage.gif){: .center-image}
