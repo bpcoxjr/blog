@@ -41,7 +41,7 @@ And here's what our resulting grid looks like:
 
 ![grid-columns-rows](/assets/images/css_grid/grid_columns_rows.png){: .center-image}
 
-<span style="font-weight: bold; font-size: 1.25em;">Reminder: The CSS for colors and centering the numbers, etc. is omitted from this post because those properties are irrelevant to how our grid performs.</span>
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863;">Reminder: The CSS for colors and centering the numbers, etc. is omitted from this post because those properties are irrelevant to how our grid performs.</span>
 
 No matter how we adjust our browser window size - wider, narrower, etc. our three columns are always going to be 100px wide.  That might work fine on a desktop computer.  But what if we're viewing our grid on a tablet or smart phone, where the dimensions of our browser window are far smaller?  Our 100-pixels-wide columns aren't very user friendly then, are they?
 
@@ -113,7 +113,7 @@ Let's take a look at another example:
 
 This should make it much clearer about how the fractional unit works.  We set our first two columns to a 1fr, and our third column to 2fr, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
 
-<span style="font-weight: bold; font-size: 1.25em">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right across the screen.</span>
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863;">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right across the screen.</span>
 
 The third piece to our CSS grid puzzle with regard to responsiveness is the minmax function.  Minmax does exactly what you'd probably guess it sounds like it should: it allows us to set a minimum value for our column widths, as well as a max.  Here's the syntax and resulting behavior:
 
