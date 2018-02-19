@@ -28,7 +28,7 @@ Okay, enough talking about why CSS grid is awesome.  Let's dig in and experience
 
 ----
 
-<span style="color: #ac0863"><h1>Defining a Grid</h1></span>
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863">Defining a Grid</span>
 
 There are very few hard and fast rules when it comes to the initial setup of a CSS grid.  In fact, there are only two.
 
