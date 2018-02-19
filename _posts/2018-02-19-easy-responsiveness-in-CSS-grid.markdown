@@ -41,7 +41,7 @@ And here's what our resulting grid looks like:
 
 ![grid-columns-rows](/assets/images/css_grid/grid_columns_rows.png){: .center-image}
 
-* Remember, I omitted CSS for colors and centering the numbers, etc. from this post because those properties are irrelevant to how our grid performs.
+<span style="font-weight: bold; font-size: 1.25em;">Reminder: The CSS for colors and centering the numbers, etc. is omitted from this post because those properties are irrelevant to how our grid performs.</span>
 
 No matter how we adjust our browser window size - wider, narrower, etc. our three columns are always going to be 100px wide.  That might work fine on a desktop computer.  But what if we're viewing our grid on a tablet or smart phone, where the dimensions of our browser window are far smaller?  Our 100-pixels-wide columns aren't very user friendly then, are they?
 
