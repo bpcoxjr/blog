@@ -126,3 +126,9 @@ The third piece to our CSS grid puzzle with regard to responsiveness is the minm
 {% endhighlight %}
 
 ![minmax usage css grid](/assets/images/minmax_usage.gif){: .center-image}
+
+As you can see, CSS Grid is so powerful, simply because we can establish a lot of really useful functionality with a very small amount of CSS.  Because this grid system is now baked right into standard issue CSS, and because of its adoption rate by the major players in the browser world, I think CSS will continue to grow in popularity in the development world, and ultimately be more widely used that other grid systems.
+
+We covered a decent amount of CSS grid concepts in two short blog posts.  However, there is more functionality available.  I highly recommend checking out the complete CSS Grid guide offered by [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid).
+
+Until next time, happy developing!
