@@ -59,6 +59,8 @@ Congratulations.  You just created your first CSS grid.  Let's see what it looks
 
 Right now you're probably thinking to yourself that this doesn't look like any grid you've ever seen.  Well, that's because we haven't defined any real rules to what we want our grid to look like, and how we want it to behave.  What you're seeing right now is the default layout of a CSS grid.  We haven't defined any columns at all, so the six rows we defined are taking up the entire width of the browser.  Let's take a look at how we can change that by adding a rule that defines our columns and rows.
 
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grid-template-columns/grid-template-rows</span>
+
 {% highlight css %}
 .container {
   display: grid;
@@ -86,6 +88,8 @@ Easy enough.  Let's change the values of our two new properties, just to make su
 ![columns-rows-adjusted](/assets/images/css_grid/columns_rows_adjusted.png){: .center-image}
 
 Just as we'd expect, the first and third columns, at 200px wide, are twice as wide as the second column, at 100px wide.  And at 100px in height, our first row is twice as tall as our second row, at 50px. Okay, cool.  But what if we want our grid items to be wider than the column they're in, or taller than their row?  Enter the grid-column and grid-row properties.
+
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grid-column-start/grid-column-end</span>
 
 {%highlight css %}
 .item1 {
@@ -152,7 +156,65 @@ Here's the result, without changing anything else:
 
 Our first grid item spans the width of the entire grid, and all other grid items adjust accordingly.
 
+<span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grip-gap</span>
 
+So far each of the grid items in our examples have been pretty cozy with each other.  That's all good and well, but what if we want a little breating room between items?  Meet grid-gap.  Grid-gap by default has a value of 0 unless otherwise defined in the CSS.  Aside from being set to 0, it can be a percentage, ems/rems, and pixels.  And which one you choose affects the gap's behavior.
+
+Let's take a look what happens if we set grid-gap's value to a percentage:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px;
+  grid-gap: 10%;
+}
+{% endhighlight %}
+
+![grid-gap-as-a-percentage](/assets/images/css_grid/grid_gap_percent.png){: .center-image}
+
+Is the behavior what you expected?  Here's what's going on when we assign a percentage value to the grid-gap property: grid-gap establishes a "gutter" between grid columns that is relative to the dimension of the element.  Simplified: the white space we see between each of the columns is equal to 10% of the total width of the entire grid.
+
+Let's set it to a pixel value:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px;
+  grid-gap: 10px;
+}
+{% endhighlight %}
+
+![grid-gap-as-pixels](/assets/images/css_grid/grid_gap_pixels.png){: .center-image}
+
+Right away you'll notice the difference: assigning a pixel value to grid-gap sets a gap width to columns AND rows. Using em/rem units beaviors similarly.
+
+Let's say we want to get really fancy and have wider gaps between columns than rows.  We decide we want 30px between columns and just 5px between rows.  That's easily attainable, like so:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px;
+  grid-gap: 5px 30px;
+}
+{% endhighlight %}
+
+![shorthand_grid_gap_rows_and_columns](/assets/images/css_grid/shorthand_grid_gap_rows_columns.png){: center-image}
+
+I think just by seeing the result of assigning two values to the grid-gap property we can discern what's going on.  The first value is the gap we want between rows, and the second is the gap we want between rows.  If you'd prefer to be more specific, you can write these two grid-gap properties separately, but to me the shorthand value is so much cleaner.  Here's what that would look like:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px;
+  grid-row-gap: 5px;
+  grid-column-gap: 30px;
+}
+
+Either way, the result is the same.
 
 ----
 
