@@ -37,8 +37,42 @@ Here's the HTML and CSS from our original grid:
 }
 {% endhighlight %}
 
-And here's what our grid looks like:
+And here's what our resulting grid looks like:
 
 ![grid-columns-rows](/assets/images/css_grid/grid_columns_rows.png){: .center-image}
 
 * Remember, I omitted CSS for colors and centering the numbers, etc. from this post because those properties are irrelevant to how our grid performs.
+
+No matter how we adjust our browser window size - wider, narrower, etc. our three columns are always going to be 100px wide.  That might work fine on a desktop computer.  But what if we're viewing our grid on a tablet or smart phone, where the dimensions of our browser window are far smaller?  Our 100-pixels-wide columns aren't very user friendly then, are they?
+
+Let's change that.
+
+First, let's shorten up how we establish our three columns and two rows, with a simple change.  Introducing repeat:
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 50px);
+}
+{% endhighlight %}
+
+Here we're telling the browser to display our grid exactly the same as before, we're just doing it slightly different.  Using repeat tells the browser to repeat (DUH!) what's inside the parentheses.  The first parameter we pass is the number of columns and rows we want to...wait for it...repeat (in our case 3 and 2, respectively), and the second parameter is the width (in the case of the columns, 100px) and height (in the case of the rows, 50px).  Easy, right?  But we still haven't tackled the obstacle of responsiveness!  Continuing on...
+
+Let's assume there are, for whatever reason, use cases where we actually want columns to be fixed at certain pixel widths, and rows to be fixed at certain heights (Hey, it's the internet.  There are crazy use cases for everything!).  Well, we can achieve that and still have some responsiveness simply by adding one additional element to our above CSS.  Introducing, auto-fit:
+
+Let's update our above CSS to include auto-fit so you can see how it works.
+
+{% highlight css %}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-rows: repeat(2, 50px);
+}
+{% endhighlight %}
+
+What we've done here is refrain from explicitly setting the number of columns to 3, and instead just told our browser to fit as many columns as it can at 100px wide, and once it runs out of room, simply wrap them on to an additional row as needed.
+
+Here's a GIF to illustrate how that behavior works:
+
+![auto-fit css grid](/assets/images/auto_fit.gif)
