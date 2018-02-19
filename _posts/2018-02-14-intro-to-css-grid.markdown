@@ -213,6 +213,7 @@ I think just by seeing the result of assigning two values to the grid-gap proper
   grid-row-gap: 5px;
   grid-column-gap: 30px;
 }
+{% endhighlight %}
 
 Either way, the result is the same.
 
