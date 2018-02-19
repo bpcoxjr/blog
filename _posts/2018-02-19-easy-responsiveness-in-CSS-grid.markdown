@@ -113,4 +113,4 @@ Let's take a look at another example:
 
 This should make it much clearer about how the fractional unit works.  We set our first two columns to a 1fr, and our third column to 2fr, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
 
-<span style="font-weight: bold;">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right.</span>
+<span style="font-weight: bold; font-size: 1.25em">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right.</span>
