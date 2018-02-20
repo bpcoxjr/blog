@@ -32,6 +32,7 @@ Here's the HTML and CSS from our original grid:
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 50px 50px;
 }
@@ -52,6 +53,7 @@ First, let's shorten up how we establish our three columns and two rows, with a 
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(2, 50px);
 }
@@ -66,6 +68,7 @@ Let's update our above CSS to include auto-fit so you can see how it works.
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, 100px);
   grid-template-rows: repeat(2, 50px);
 }
@@ -86,6 +89,7 @@ The fractional unit can be used in place of pixels to set the width on our colum
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(2, 50px);
 }
@@ -104,6 +108,7 @@ Let's take a look at another example:
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: repeat(2, 50px);
 }
@@ -120,6 +125,7 @@ The third piece to our CSS grid puzzle with regard to responsiveness is the minm
 {% highlight css %}
 .container {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: repeat(2, 50px);
 }
