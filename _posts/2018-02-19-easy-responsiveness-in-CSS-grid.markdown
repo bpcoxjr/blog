@@ -8,7 +8,7 @@ categories: css
 
 # Continuing our css grid series...
 
-In our last post we dove into learning how to implement a rudimentary CSS grid, talked about the differences between it and other popular grid systems provided by outside frameworks like [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid), and talked about its adoption and support rate in major browsers.
+In our last post we dove into learning how to implement a rudimentary CSS grid, talked about the differences between it and other popular grid systems provided by outside frameworks like [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid), and talked about its support rate [in major browsers](https://www.caniuse.com/#feat=css-grid).
 
 What you may have noticed about the grids we created in the examples was that they were not very responsive to changes in the size of our viewport.  Okay...there weren't responsive AT ALL.  Column widths were set in pixels in our CSS file, stayed fixed regardless of viewport width, and if we made the viewport small enough, some columns weren't visible at all.
 
@@ -120,7 +120,7 @@ The third piece to our CSS grid puzzle with regard to responsiveness is the minm
 {% highlight css %}
 .container {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: repeat(2, 50px);
 }
 {% endhighlight %}
