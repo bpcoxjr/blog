@@ -135,7 +135,7 @@ The third piece to our CSS grid puzzle with regard to responsiveness is the minm
 
 As you can see, CSS Grid is so powerful, simply because we can establish a lot of really useful functionality with a very small amount of CSS.  Because this grid system is now baked right into standard issue CSS, and because of its adoption rate by the major players in the browser world, I think CSS grid will continue to grow in popularity in the development world, and ultimately be more widely used that other grid systems.
 
-We covered a decent amount of CSS grid concepts in two short blog posts.  Up next in our third post we'll dig even deeper into CSS Grid's capabilities, and discuss some interesting build-in behavior in which CSS Grid can handle some of the responsiveness for us without us even having to write CSS rules telling it to!
+We've covered quite a few of CSS grid's concepts in two short blog posts!  Up next in our third post we'll dig even deeper into CSS Grid's capabilities, and discuss some interesting build-in behavior in which CSS Grid can handle some of the responsiveness for us without us even having to write CSS rules telling it to.
 
 In the meantime, if your curiousity is peaked, I highly recommend checking out the complete CSS Grid guide offered by [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid).
 
