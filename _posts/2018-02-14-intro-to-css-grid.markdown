@@ -158,7 +158,7 @@ Our first grid item spans the width of the entire grid, and all other grid items
 
 <span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grip-gap</span>
 
-So far each of the grid items in our examples have been pretty cozy with each other.  That's all good and well, but what if we want a little breating room between items?  Meet grid-gap.  Grid-gap by default has a value of 0 unless otherwise defined in the CSS.  Aside from being set to 0, it can be a percentage, ems/rems, and pixels.  And which one you choose affects the gap's behavior.
+So far each of the grid items in our examples have been pretty cozy with each other.  That's all good and well, but what if we want a little breathing room between items?  Meet grid-gap.  Grid-gap by default has a value of 0 unless otherwise defined in the CSS.  Aside from being set to 0, it can be a percentage, ems/rems, and pixels.  And which one you choose affects the gap's behavior.
 
 Let's take a look what happens if we set grid-gap's value to a percentage:
 
