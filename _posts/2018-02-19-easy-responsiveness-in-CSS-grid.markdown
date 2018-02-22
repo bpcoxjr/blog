@@ -61,9 +61,9 @@ First, let's shorten up how we establish our three columns and two rows, with a 
 
 Here we're telling the browser to display our grid exactly the same as before, we're just doing it slightly different.  Using the repeat function tells the browser to repeat (DUH!) what's inside the parentheses.  The first parameter we pass is the number of columns and rows we want to...wait for it...repeat (in our case 3 and 2, respectively), and the second parameter is the width (in the case of the columns, 100px) and height (in the case of the rows, 50px).  Easy, right?  But we still haven't tackled the obstacle of responsiveness!  Continuing on...
 
-Let's assume there are, for whatever reason, use cases where we actually want columns to be fixed at certain pixel widths, and rows to be fixed at certain heights (Hey, it's the internet.  There are crazy use cases for everything!).  Well, we can achieve that and still have some responsiveness simply by adding one additional element to our above CSS.  Introducing, auto-fit:
+Let's assume there are, for whatever reason, use cases where we actually want columns to be fixed at certain pixel widths, and rows to be fixed at certain heights (Hey, it's the internet.  There are crazy use cases for everything!).  Well, we can achieve that and still have some responsiveness simply by adding one additional element to our above CSS.  Introducing, <code>auto-fit</code>:
 
-Let's update our above CSS to include auto-fit so you can see how it works.
+Let's update our above CSS to include <code>auto-fit</code> so you can see how it works.
 
 {% highlight css %}
 .container {
@@ -80,9 +80,9 @@ Here's a GIF to illustrate how that behavior works:
 
 ![auto-fit css grid](/assets/images/auto_fit.gif){: .center-image}
 
-Okay, that's sort of cool...I guess.  We've got some bare minimum responsiveness.  But we can do a heck of a lot better!
+Okay, that's sort of cool.  We've got some bare minimum responsiveness, but we can do a heck of a lot better!
 
-Meet your new best friend, the fractional unit('fr').
+Meet your new best friend, the <code>fr</code>(fractional unit).
 
 The fractional unit can be used in place of pixels to set the width on our columns.  Let's take a look at our original CSS, ignoring the usage of repeat we just learned:
 
@@ -101,7 +101,7 @@ All we've done here is replace pixel units with the fractional unit.  Let's take
 
 Now we're seeing the type of real responsiveness we've grown to expect from the modern web!  So what's going on here?
 
-Well, if you'll recall from our [first post](https://www.displayblog.io/intro-to-css-grid) with CSS grid we aren't beholden to a 12 column grid that all the other grid systems are based on.  And that's because CSS Grid offers us the powerful 'fr'.  The fractional unit works by taking into account the value of the other fractional units around it.  In our example, by setting each of our three columns to 1fr, we are telling the browser that the total width available to our grid is 3 fractional units, and each column should take up 1/3 of the available space.  
+Well, if you'll recall from our [first post](https://www.displayblog.io/intro-to-css-grid) with CSS grid we aren't beholden to a 12 column grid that all the other grid systems are based on.  And that's because CSS Grid offers us the powerful <code>fr</code>.  The fractional unit works by taking into account the value of the other fractional units around it.  In our example, by setting each of our three columns to <code>1fr</code>, we are telling the browser that the total width available to our grid is 3 fractional units, and each column should take up 1/3 of the available space.  
 
 Let's take a look at another example:
 
@@ -116,11 +116,11 @@ Let's take a look at another example:
 
 ![unequal fr usage css grid](/assets/images/unequal_fr_usage.gif){: .center-image}
 
-This should make it much clearer about how the fractional unit works.  We set our first two columns to a 1fr, and our third column to 2fr, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
+This should make it much clearer about how the fractional unit works.  We set our first two columns to <code>1fr</code>, and our third column to <code>2fr</code>, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
 
 <span style="font-weight: bold; font-size: 1.25em; color: #ac0863;">Quick note: If it isn't obvious from the CSS and resulting GIFs, the values assigned to the grid-template-columns property work left to right across the screen.</span>
 
-The third piece to our CSS grid puzzle with regard to responsiveness is the minmax function.  Minmax does exactly what you'd probably guess it sounds like it should: it allows us to set a minimum value for our column widths, as well as a max.  Here's the syntax and resulting behavior:
+The third piece to our CSS grid puzzle with regard to responsiveness is the <code>minmax</code> function.  <code>minmax</code> does exactly what you'd probably guess it sounds like it should: it allows us to set a minimum value for our column widths, as well as a max.  Here's the syntax and resulting behavior:
 
 {% highlight css %}
 .container {
@@ -137,6 +137,6 @@ As you can see, CSS Grid is so powerful, simply because we can establish a lot o
 
 We've covered quite a few of CSS grid's concepts in two short blog posts!  Up next in our third post we'll dig even deeper into CSS Grid's capabilities, and discuss some interesting build-in behavior in which CSS Grid can handle some of the responsiveness for us without us even having to write CSS rules telling it to.
 
-In the meantime, if your curiousity is peaked, I highly recommend checking out the complete CSS Grid guide offered by [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid).
+In the meantime, if your curiosity is peaked, I highly recommend checking out the complete CSS Grid guide offered by [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid).
 
 Until next time, happy developing!
