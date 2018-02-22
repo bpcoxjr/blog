@@ -10,7 +10,7 @@ categories: css
 
 As I'm sure you've gathered from the title of this post, we're going to get our feet wet with CSS grid.  Why CSS grid?  Because having a firm grasp on a grid system is fundamental to building modern, responsive websites that look good across screens of all sizes, and CSS grid (in my opinion) is not only the most powerful option available today, but is also easy to learn.
 
-If you've dabbled in front-end development for any amount of time, you're probably familiar with multiple other grid systems.  There is no shortage of available options.  [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid/) is probably the most popular, but others like [Foundation](https://foundation.zurb.com/grid.html) and [Bourbon Neat](https://neat.bourbon.io) have also gained some traction in the fast-changing front-end world.  With such a crowded grid-focused space, was CSS really needed?  YES!
+If you've dabbled in front-end development for any amount of time, you're probably familiar with multiple other grid systems.  There is no shortage of available options.  [Bootstrap](https://www.getbootstrap.com/docs/4.0/layout/grid/) is probably the most popular, but others like [Foundation](https://foundation.zurb.com/grid.html) and [Bourbon Neat](https://neat.bourbon.io) have also gained some traction in the fast-changing front-end world.  With such a crowded grid-focused space, was baking grid capability directly into CSS really needed?  YES!
 
 CSS grid has gained major traction to date, with a quick check of its adoption rate among major browsers at [almost 87%](https://caniuse.com/#feat=css-grid)
 
@@ -69,7 +69,7 @@ Right now you're probably thinking to yourself that this doesn't look like any g
 }
 {% endhighlight %}
 
-So what have we done here?  We've added a property called grid-template-columns and defined three columns, each 100px wide.  We've also added another property, grid-template-rows, and defined two rows, each 50 pixels in height.
+So what have we done here?  We've added a property called <code>grid-template-columns</code> and defined three columns, each 100px wide.  We've also added another property, <code>grid-template-rows</code>, and defined two rows, each 50 pixels in height.
 
 This is what you should see in the browser:
 
@@ -87,7 +87,7 @@ Easy enough.  Let's change the values of our two new properties, just to make su
 
 ![columns-rows-adjusted](/assets/images/css_grid/columns_rows_adjusted.png){: .center-image}
 
-Just as we'd expect, the first and third columns, at 200px wide, are twice as wide as the second column, at 100px wide.  And at 100px in height, our first row is twice as tall as our second row, at 50px. Okay, cool.  But what if we want our grid items to be wider than the column they're in, or taller than their row?  Enter the grid-column and grid-row properties.
+Just as we'd expect, the first and third columns, at 200px wide, are twice as wide as the second column, at 100px wide.  And at 100px in height, our first row is twice as tall as our second row, at 50px. Okay, cool.  But what if we want our grid items to be wider than the column they're in, or taller than their row?  Enter the <code>grid-column</code> and <code>grid-row</code> properties.
 
 <span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grid-column-start/grid-column-end</span>
 
@@ -110,9 +110,9 @@ Our two above CSS rules can be simplified, written as a single shorthand rule, l
 
 ![column-start-end](/assets/images/css_grid/column_start_end.png){: .center-image}
 
-Let's talk a little bit about what's going on here.  Setting grid-column-start to a value of 1 means we want our item to start at the left edge of the first column (the first grid column line starting at the left edge), while setting grid-column-end to a value of 3 means go to the 3rd defined column, which in this case is the left edge of the third column (each column has a left and right edge).  If we wanted item1 to span the full width of the grid, we would set grid-column-end to a value of 4.  Additionally, notice how although we have only defined two rows in our CSS rules, items wrap onto the next available row, and in the case of item6, a whole new row altogether.  You'll also notice item6 inherited the height that we defined for our first grid row.
+Let's talk a little bit about what's going on here.  Setting <code>grid-column-start</code> to a value of 1 means we want our item to start at the left edge of the first column (the first grid column line starting at the left edge), while setting <code>grid-column-end</code> to a value of 3 means go to the 3rd defined column, which in this case is the left edge of the third column (each column has a left and right edge).  If we wanted item1 to span the full width of the grid, we would set <code>grid-column-end</code> to a value of 4.  Additionally, notice how although we have only defined two rows in our CSS rules, items wrap onto the next available row, and in the case of item6, a whole new row altogether.  You'll also notice item6 inherited the height that we defined for our first grid row.
 
-The grid-row-start/grid-row-end and short-hand grid-row properties work similarly.
+The <code>grid-row-start</code>/<code>grid-row-end</code> and short-hand <code>grid-row</code> properties work similarly.
 
 {% highlight css %}
 “.item1 {
@@ -122,7 +122,7 @@ The grid-row-start/grid-row-end and short-hand grid-row properties work similarl
 
 ![grid-row](/assets/images/css_grid/grid_row.png){: .center-image}
 
-To confirm our grasp of how these CSS grid properties work, let's use a mix of grid-column and grid-row on our grid.
+To confirm our grasp of how these CSS grid properties work, let's use a mix of <code>grid-column</code> and <code>grid-row</code> on our grid.
 
 {% highlight css %}
 .item1 {
@@ -142,7 +142,7 @@ Here's our result:
 
 Something to notice here is that the grid items that have no specific rules written for them (items 2, 5, and 6) adapt to the rules of the other grid items, and take up the remaining space.
 
-While we're on the topic of talking about the grid-column and grid-row properties, here's a quick tip if you want a grid item to span the full width of the grid, without having to count the number of grid column lines.  Set the first grid-column value to 1, and the second to -1.
+While we're on the topic of talking about the <code>grid-column</code> and <code>grid-row</code> properties, here's a quick tip if you want a grid item to span the full width of the grid, without having to count the number of grid column lines.  Set the first <code>grid-column</code> value to 1, and the second to -1.
 
 {% highlight css %}
 .item1 {
@@ -158,9 +158,9 @@ Our first grid item spans the width of the entire grid, and all other grid items
 
 <span style="font-weight: bold; font-size: 1.25em; color: #ac0863">grip-gap</span>
 
-So far each of the grid items in our examples have been pretty cozy with each other.  That's all good and well, but what if we want a little breathing room between items?  Meet grid-gap.  Grid-gap by default has a value of 0 unless otherwise defined in the CSS.  Aside from being set to 0, it can be a percentage, ems/rems, and pixels.  And which one you choose affects the gap's behavior.
+So far each of the grid items in our examples have been pretty cozy with each other.  That's all good and well, but what if we want a little breathing room between items?  Meet <code>grid-gap</code>.  <code>grid-gap</code> by default has a value of 0 unless otherwise defined in the CSS.  Aside from being set to 0, it can be a percentage, ems/rems, and pixels.  And which one you choose affects the gap's behavior.
 
-Let's take a look what happens if we set grid-gap's value to a percentage:
+Let's take a look what happens if we set <code>grid-gap</code>'s value to a percentage:
 
 {% highlight css %}
 .container {
@@ -173,7 +173,7 @@ Let's take a look what happens if we set grid-gap's value to a percentage:
 
 ![grid-gap-as-a-percentage](/assets/images/css_grid/grid_gap_percent.png){: .center-image}
 
-Is the behavior what you expected?  Here's what's going on when we assign a percentage value to the grid-gap property: grid-gap establishes a "gutter" between grid columns that is relative to the dimension of the element.  Simplified: the white space we see between each of the columns is equal to 10% of the total width of the entire grid.
+Is the behavior what you expected?  Here's what's going on when we assign a percentage value to the <code>grid-gap</code> property: <code>grid-gap</code> establishes a "gutter" between grid columns that is relative to the dimension of the element.  Simplified: the white space we see between each of the columns is equal to 10% of the total width of the entire grid.
 
 Let's set it to a pixel value:
 
@@ -188,7 +188,7 @@ Let's set it to a pixel value:
 
 ![grid-gap-as-pixels](/assets/images/css_grid/grid_gap_pixels.png){: .center-image}
 
-Right away you'll notice the difference: assigning a pixel value to grid-gap sets a gap width to columns AND rows. Using em/rem units beaviors similarly.
+Right away you'll notice the difference: assigning a pixel value to <code>grid-gap</code> sets a gap width to columns AND rows. Using em/rem units beaviors similarly.
 
 Let's say we want to get really fancy and have wider gaps between columns than rows.  We decide we want 30px between columns and just 5px between rows.  That's easily attainable, like so:
 
@@ -203,7 +203,7 @@ Let's say we want to get really fancy and have wider gaps between columns than r
 
 ![shorthand_grid_gap_rows_and_columns](/assets/images/css_grid/shorthand_grid_gap_rows_columns.png){: center-image}
 
-I think just by seeing the result of assigning two values to the grid-gap property we can discern what's going on.  The first value is the gap we want between rows, and the second is the gap we want between rows.  If you'd prefer to be more specific, you can write these two grid-gap properties separately, but to me the shorthand value is so much cleaner.  Here's what that would look like:
+I think just by seeing the result of assigning two values to the <code>grid-gap</code> property we can discern what's going on.  The first value is the gap we want between rows, and the second is the gap we want between rows.  If you'd prefer to be more specific, you can write these two <code>grid-gap</code> properties separately, but to me the shorthand value is so much cleaner.  Here's what that would look like:
 
 {% highlight css %}
 .container {
