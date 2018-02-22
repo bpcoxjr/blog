@@ -6,7 +6,7 @@ date: 2018-02-20
 categories: css
 ---
 
-Let's reflect on how we've defined grids in CSS so far.  We've created a parent/container element to hold child items, and we've placed those child items into cells that we define via grid columns and rows.  That's worked fine for us so far.  However, one of the great strengths of CSS Grid is the ability for the grid to adapt to its items.
+Let's reflect on how we've defined grids in CSS so far.  We've created a parent/container element to hold child items, and we've placed those child items into cells that we define via <code>grid-template-columns</code> and <code>grid-template-rows</code>.  That's worked fine for us so far.  However, one of the great strengths of CSS Grid is the ability for the grid to adapt to its items.
 
 This adaptability is managed by what is known as the <span style="font-style: italic;">explicit</span> and <span style="font-style: italic;">implicit</span> grid.
 
@@ -46,13 +46,13 @@ Enter grid-auto-rows and grid-auto-columns:
 }
 {% endhighlight %}
 
-In this particular example, the grid-auto-columns property doesn't come into play, but it can't hurt to set both of these properties when building out our grid, just to handle any future 'what if' scenarios.  What does come into play is the grid-auto-rows setting.  Remember that before we set a value for this property, the implicit grid was just doing its own thing, and the grid items it added to the new third row differed in height from our first two rows.  By setting the value of grid-auto-rows at 50px, any new rows past the original two we explicitly defined will match their height.
+In this particular example, the <code>grid-auto-columns</code> property doesn't come into play, but it can't hurt to set both of these properties when building out our grid, just to handle any future 'what if' scenarios.  What does come into play is the <code>grid-auto-rows</code> setting.  Remember that before we set a value for this property, the implicit grid was just doing its own thing, and the grid items it added to the new third row differed in height from our first two rows.  By setting the value of <code>grid-auto-rows</code> at 50px, any new rows past the original two we explicitly defined will match their height.
 
 Let's check out our result, paying special attention to what happens when items five and six wrap to a new implicit third row:
 
 ![implicit row usage](/assets/images/implicit_rows.gif){: .center-image}
 
-What if instead of having the implicit grid create a new third row to hold items five and six, we wanted them to be added to a new implicit column?  We can easily make that specification as well, using the grid-auto-flow property, which can be set to a value of column or row.
+What if instead of having the implicit grid create a new third row to hold items five and six, we wanted them to be added to a new implicit column?  We can easily make that specification as well, using the <code>grid-auto-flow</code> property, which can be set to a value of column or row.
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Wrap Up</span>
 
