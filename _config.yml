@@ -21,7 +21,7 @@ description: "Thoughts, tutorials, discussions, and interesting links on front e
 keywords: "blog, web developer, web development, web design, responsive design, JavaScript, React, Angular, Vue, HTML, CSS, Durham, Raleigh, Chapel Hill, triangle, beginner, coding, junior web developer, front-end development, tutorial, North Carolina, Patrick Cox"
 
 # Site settings
-url: http://www.displayblog.io
+url: https://www.displayblog.io
 gems:
   - jekyll-sitemap
 baseurl: '/'
