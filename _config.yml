@@ -22,6 +22,8 @@ keywords: "blog, web developer, web development, web design, responsive design, 
 
 # Site settings
 url: http://www.displayblog.io
+gems:
+  - jekyll-sitemap
 baseurl: '/'
 # baseurl: ""
 
