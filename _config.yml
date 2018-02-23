@@ -24,7 +24,7 @@ keywords: "blog, web developer, web development, web design, responsive design, 
 url: https://www.displayblog.io
 gems:
   - jekyll-sitemap
-baseurl: '/'
+baseurl: ''
 # baseurl: ""
 
 # Author settings
