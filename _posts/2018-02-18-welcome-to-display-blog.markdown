@@ -8,7 +8,7 @@ summary: A general welcome to display: blog post.
 tags: [welcome, display: blog]
 ---
 
-<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Welcome to display: blog!</span>
+/*<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Welcome to display: blog!</span>
 
 You've stumbled upon the first post here at display: blog.  I'm happy to have you join me.  My name is Patrick Cox, and I'm a front-end web developer based in Durham, North Carolina.  Nearly two years into my career as a developer, I decided to start this blog because I believe it will help me continue to learn as much as possible about the fast-paced, ever-changing ecosystem that is front-end development.
 
@@ -18,4 +18,4 @@ Additionally, I plan to post a weekly round-up of helpful or just plain cool stu
 
 To learn a little bit more about myself and the blog, start [here](https://www.displayblog.io/about-display-blog).
 
-Let's get started!
+Let's get started!*/
