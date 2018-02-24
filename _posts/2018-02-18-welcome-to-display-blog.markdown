@@ -8,7 +8,9 @@ summary: A general welcome to display: blog post.
 tags: [welcome, display: blog]
 ---
 
-Welcome!  You've stumbled upon the first post here at display: blog.  I'm happy to have you join me.  My name is Patrick Cox, and I'm a front-end web developer based in Durham, North Carolina.  Nearly two years into my career as a developer, I decided to start this blog because I believe it will help me continue to learn as much as possible about the fast-paced, ever-changing ecosystem that is front-end development.
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Welcome to display: blog!</span>
+
+You've stumbled upon the first post here at display: blog.  I'm happy to have you join me.  My name is Patrick Cox, and I'm a front-end web developer based in Durham, North Carolina.  Nearly two years into my career as a developer, I decided to start this blog because I believe it will help me continue to learn as much as possible about the fast-paced, ever-changing ecosystem that is front-end development.
 
 I recently discovered that I learn best through helping to teach others, so you can expect to regularly find tutorials here on HTML, CSS, and JavaScript.  And I'm going to kick things off in a big way, with a three part series on learning the ins and outs of CSS Grid!
 
