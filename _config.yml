@@ -17,7 +17,7 @@ highlighter : rouge
 
 # SEO settings
 title: "display: blog"
-description: "Thoughts, tutorials, discussions, and interesting links on front end web development from the perspective of Patrick Cox, a junior front end developer based in Durham, North Carolina."
+description: "Thoughts, tutorials, discussions, and interesting links on front end web development from Durham, North Carolina based front-end developer Patrick Cox"
 keywords: "blog, web developer, web development, web design, responsive design, JavaScript, React, Angular, Vue, HTML, CSS, Durham, Raleigh, Chapel Hill, triangle, beginner, coding, junior web developer, front-end development, tutorial, North Carolina, Patrick Cox"
 
 # Site settings
