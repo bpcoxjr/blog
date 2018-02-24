@@ -4,6 +4,8 @@ title:  "Welcome to display: blog!"
 permalink:  "welcome-to-display-blog"
 date:   2018-02-18
 categories: general
+summary: A general welcome to display: blog post.
+tags: [welcome, display: blog]
 ---
 
 Welcome!  You've stumbled upon the first post here at display: blog.  I'm happy to have you join me.  My name is Patrick Cox, and I'm a front-end web developer based in Durham, North Carolina.  Nearly two years into my career as a developer, I decided to start this blog because I believe it will help me continue to learn as much as possible about the fast-paced, ever-changing ecosystem that is front-end development.

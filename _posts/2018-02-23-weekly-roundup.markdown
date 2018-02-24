@@ -4,6 +4,8 @@ title: "Weekly Roundup"
 permalink: "weekly-roundup-02-23-2018"
 date: 2018-02-23
 categories: links
+summary: Cool front end development links for the week ended 2/23/18.
+tags: [front end development, html, css, javascript, links]
 ---
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Welcome to the very first weekly roundup!</span>

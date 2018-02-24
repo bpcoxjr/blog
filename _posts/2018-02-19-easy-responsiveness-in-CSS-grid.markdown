@@ -4,6 +4,8 @@ title: "Easy Responsiveness in CSS Grid"
 permalink: "easy-responsiveness-in-css-grid"
 date: 2018-02-19
 categories: css
+summary: How to easily add responsiveness to css grid.
+tags: [css, grid, css grid, responsiveness]
 ---
 
 # Continuing our css grid series...

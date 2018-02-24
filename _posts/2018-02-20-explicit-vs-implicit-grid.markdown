@@ -4,6 +4,8 @@ title: "Explicit vs Implicit CSS Grid"
 permalink: "explicit-vs-implicit-css-grid"
 date: 2018-02-20
 categories: css
+summary: Understanding the differences between the explicit and implicit grid.
+tags: [css, grid, css grid, explicit grid, implicit grid]
 ---
 
 Let's reflect on how we've defined grids in CSS so far.  We've created a parent/container element to hold child items, and we've placed those child items into cells that we define via <code>grid-template-columns</code> and <code>grid-template-rows</code>.  That's worked fine for us so far.  However, one of the great strengths of CSS Grid is the ability for the grid to adapt to its items.

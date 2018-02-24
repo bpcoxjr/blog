@@ -4,6 +4,8 @@ title: "Prototyping with CSS Grid"
 permalink: "prototyping-with-css-grid"
 date: 2018-02-22
 categories: css
+summary: How to easily prototype a website layout using css grid.
+tags: [css, grid, css grid, prototype, webpage, website, layout]
 ---
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">In which we use the power of CSS Grid to build something useful...</span>

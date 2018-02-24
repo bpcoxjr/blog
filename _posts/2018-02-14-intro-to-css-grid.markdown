@@ -4,6 +4,8 @@ title: "Intro to CSS Grid"
 permalink: "intro-to-css-grid"
 date: 2018-02-19
 categories: css
+summary: An introduction to css grid.
+tags: [css, grid, css grid, html, responsive, introduction, tutorial, guide, intro, beginner]
 ---
 
 # Welcome to the very first tutorial here at display:blog!
