@@ -9,3 +9,9 @@ tags: [front end development, html, css, javascript, links]
 ---
 
 https://speckyboy.com/10-handy-css-grid-code-snippets/
+
+https://css-tricks.com/complexity/#more-266794
+
+https://github.com/sindresorhus/modern-normalize
+
+https://github.com/thoughtbot/laptop
