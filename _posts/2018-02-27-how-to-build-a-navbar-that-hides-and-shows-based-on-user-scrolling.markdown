@@ -177,7 +177,7 @@ You'll see how each of these variables is used in a moment.  Right now, just not
 
 Now that we've got all of our variables in place, let's use see how they're used to make calculations that will determine when the nav bar is shown and hidden.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 function hasScrolled() {
   var scrollTop = $(window).scrollTop();
 
@@ -221,7 +221,7 @@ There is a lot to discuss here, so let's take a deep breath, and we'll go line b
 
 Here's our complete JavaScript code:
 
-{% highlight JavaScript %}
+{% highlight javascript %}
 $(document).ready(function() {
 
   var didScroll;
