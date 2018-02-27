@@ -80,7 +80,7 @@ What we've done here is refrain from explicitly setting the number of columns to
 
 Here's a GIF to illustrate how that behavior works:
 
-![auto-fit css grid](/assets/images/auto_fit.gif){: .center-image}
+![auto-fit css grid](/assets/images/css_grid/auto_fit.gif){: .center-image}
 
 Okay, that's sort of cool.  We've got some bare minimum responsiveness, but we can do a heck of a lot better!
 
@@ -99,7 +99,7 @@ The fractional unit can be used in place of pixels to set the width on our colum
 
 All we've done here is replace pixel units with the fractional unit.  Let's take a look at how it behaves:
 
-![fr usage css grid](/assets/images/fr_usage.gif){: .center-image}
+![fr usage css grid](/assets/images/css_grid/fr_usage.gif){: .center-image}
 
 Now we're seeing the type of real responsiveness we've grown to expect from the modern web!  So what's going on here?
 
@@ -116,7 +116,7 @@ Let's take a look at another example:
 }
 {% endhighlight %}
 
-![unequal fr usage css grid](/assets/images/unequal_fr_usage.gif){: .center-image}
+![unequal fr usage css grid](/assets/images/css_grid/unequal_fr_usage.gif){: .center-image}
 
 This should make it much clearer about how the fractional unit works.  We set our first two columns to <code>1fr</code>, and our third column to <code>2fr</code>, for a total of 4 fractional units of available grid space.  That means half the space is going to be occupied by the third column, with the first two columns equally splitting the other half of the grid.  Neat, right?
 

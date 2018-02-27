@@ -14,6 +14,7 @@ sass:
 permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
+linenos: true
 
 # SEO settings
 title: "display: blog"

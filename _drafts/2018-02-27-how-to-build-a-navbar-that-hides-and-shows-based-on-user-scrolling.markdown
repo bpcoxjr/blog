@@ -13,11 +13,13 @@ tags: [front end development, html, css, javascript, responsiveness]
 If you're anything like me, you often see cool features and design behaviors on websites that catch your eye, and make you think to yourself "How'd they do that?"  For me, one of those things I saw across the web, and sought out learning how to build, was a nav bar that does a couple of really cool things:
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">1.</span>  It sticks to the top of our screen, no matter where we are on the page.<br>
-<br>
-<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">2.</span>  It hides/shows based on the user's scrolling behavior, showing when the page initially loads, hides when the user is actively scrolling down the page, and reappears only when the user begins to scroll back up the page.
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">2.</span>  It hides/shows based on the user's scrolling behavior, showing when the page initially loads, hiding when the user is actively scrolling down the page, and reappears only when the user begins to scroll back up the page.
 <br>
 
 To see the type of behavior I'm talking about, check out the nav bar on [my personal site](https://www.bpcoxjr.com).
+
+The end benefit to the user here, other than it just looking cool, is that it gives more screen space for content.
 
 Today, we're going to build this kind of nav bar.  Let's get started...
 
@@ -43,7 +45,7 @@ First, we're going to need to build the markup for our nav bar.  There's nothing
 
 Next, we're going to apply some basic CSS to give our nav bar some nice, simple styling.
 
-<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Note: Some CSS, such as font-family or font-size, has been omitted because it's not relative to the tutorial.</span>
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">Note: Some CSS, such as font-family or font-size, has been omitted because it's not relative to the tutorial.  All code is, however, included in the Github repo, which is linked at the end of the article.</span>
 
 Here's the CSS for the nav bar:
 
@@ -122,6 +124,10 @@ This class establishes a class that does one thing: change the value of our nav-
 
 Setting <code>top: -67px;</code> moves the nav bar element up by the total value of its height, taking it completely out of view.
 
+Here's what our nav bar looks like at this point:
+
+![basic navbar](/assets/images/nav_bar_scrolling/navbar.png){: .center-image}
+
 So we've got our HTML and CSS taken care of.  Cool.  But how do we make the whole thing work?  How do we listen for a user to scroll up and down the page, then alternately add and remove the <code>nav-bar-down</code> and <code>nav-bar-up</code> classes to hide and show the nav bar, based on that user scrolling behavior?  We need JavaScript!
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">The JavaScript</span>
@@ -152,10 +158,10 @@ setInterval(function() {
     hasScrolled();
     didScroll = false;
   }
-  }, 250);
+  }, 50);
 {% endhighlight %}
 
-Again, let's break down what's going on here.  <code>setInterval</code> is a built-in JavaScript method available to us.  Its behavior is such that it expects you to pass it a number that represents how often it should be called.  The number you pass is always in milliseconds.  See the 250 I pass at the end there?  It's 250 milliseconds, or one quarter second.  If we only wanted to check every second, we'd pass a value of 1000 (1000ms = 1s).
+Again, let's break down what's going on here.  <code>setInterval</code> is a built-in JavaScript method available to us.  Its behavior is such that it expects you to pass it a number that represents how often it should be called.  The number you pass is always in milliseconds.  See the <code>50</code> I pass at the end there?  It's 50 milliseconds.  If we only wanted to check every second, we'd pass a value of 1000 (1000ms = 1s).
 
 You'll notice that every 250 milliseconds we also call a function called <code>hasScrolled()</code>.  Let's write that function now.
 
@@ -171,12 +177,12 @@ You'll see how each of these variables is used in a moment.  Right now, just not
 
 Now that we've got all of our variables in place, let's use see how they're used to make calculations that will determine when the nav bar is shown and hidden.
 
-{% highlight JavaScript %}
+{% highlight javascript linenos %}
 function hasScrolled() {
   var scrollTop = $(window).scrollTop();
 
   // Make sure user scrolls more than delta
-  if (Math.abs(lastScrollTop - st) <= delta)
+  if (Math.abs(lastScrollTop - scrollTop) <= delta)
     return;
 
   // If user scrolls past the height of the navbar, remove class nav-bar-down add class nav-bar-up.
@@ -184,9 +190,8 @@ function hasScrolled() {
     $('#nav-bar').removeClass('nav-bar-down').addClass('nav-bar-up');
   }
   // If user is scrolling up, remove class nav-bar-up and add class nav-bar-down.
-  else {
-    if (scrollTop + $(window).height() < $(document).height()) {
-      $('#nav-bar').removeClass('nav-bar-up').addClass('nav-bar-down');
+  else if (scrollTop + $(window).height() < $(document).height()) {
+    $('#nav-bar').removeClass('nav-bar-up').addClass('nav-bar-down');
     }
   }
 
@@ -195,3 +200,73 @@ function hasScrolled() {
 {% endhighlight %}
 
 There is a lot to discuss here, so let's take a deep breath, and we'll go line by line to make sure we digest how it all works.
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">1.</span>  We declare our function, <code>hasScrolled()</code>, which we have already set to be called from <code>setInterval()</code> every 250 milliseconds.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">2.</span>  We declare a new variable, <code>scrollTop</code>, and we set it equal to the result of calling the jQuery method, <code>scrollTop()</code>, on the window object.  If you're not familiar with scrollTop, it's another built-in method jQuery offers us, which gets the vertical position of the scroll bar, in pixels, from the very top of the page.  Think of it as the total number of pixels that are hidden from view above the scrollable area.  You can read more about <code>scrollTop()</code> [here](https://api.jquery.com/scrollTop/).<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">3.</span>  Our first <code>if</code> statement uses <code>Math.abs</code>, a built-in method of JavaScript's Math object, to get the absolute value of subtracting the value of <code>scrollTop</code> from <code>lastScrollTop</code>, then checks to see if the resulting number is less than or equal to the value of delta.  When our page first loads, the value of <code>lastScrollTop</code> is 0, and the value of <code>scrollTop</code> is 0 as well.  At the same time, the value of <code>delta</code>, which we set when we declared the variable, is 5.  Because 0 < 5, <code>return</code> is called, and the rest of our function's code is not parsed, so nothing happens.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">4.</span>  The next if/else statement is encountered only when the absolute value of the difference between <code>lastScrollTop</code> and <code>scrollTop</code> is greater than the value of <code>delta</code>.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">5.</span>  When the <code>if</code> portion of that second code block is reached, we first check to see if the value of <code>scrollTop</code> is greater than the value of <lastScrollTop>.  Remember what the two variables represent: lastScrollTop is initially declared by us to be 0, while we set <code>scrollTop</code> to basically measure the distance (measured in px) that the vertical scroll bar has traveled from the top of the document.  So because when the page first loads we set <code>lastScrollTop</code> to 0, this code, at least the first time it runs is just checking to see if the user has scrolled <span style="font-style: italic; text-transform: uppercase">at all</span>.  In a moment we'll talk about how it's measured for all other subsequent scrolls.  After that is checked, we check to see if <scrollTop> is greater than <navbarHeight>, which is easy to understand now: it is simply checking to see if the user has scrolled <span style="font-style: italic; text-transform: uppercase">completely</span> past the nav bar, so that is is no longer visible.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">6.</span> If - and only if - <span style="font-style: italic; text-transform: uppercase;">both</span> conditions are met (that's what the <code>&&</code> is checking: if condition 1 <span style="font-style: italic; text-transform: uppercase">and</span> condition 2 are true), the jQuery inside the <code>if</code> statement gets parsed.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">7.</span>  What that jQuery does is actually quite simple.  First, we select the nav bar by its ID, use jQuery's <code>removeClass()</code> method to remove the <code>nav-bar-down</code> class, then chain jQuery's <code>addClass()</code> method to add the <code>nav-bar-up</code> class, effectively hiding it from view by moving it 'up' the document the same number of pixels as its height (Remember, the <code>nav-down-class</code> has a <code>top</code> value of <code>0</code>, and the <code>nav-up-class</code>).<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">8.</span>  The <code>else if</code> statement also compares two values to determine if its code block should be performed.  You'll notice that once again we are using a built-in jQuery method to obtain some values.  This time it's <code>height()</code>.  First we get the height of the <code>window</code> object (the height of your browser window) and add it to <code>scrollTop</code>.  Then we grab the <code>height()</code> of the <code>document</code> (the height of all of the contents of the page added together).  We compare the two values, and if the <code>document</code> has a higher value, we use jQuery one more time to reverse the CSS classes, which shows the nav bar again.  The reason for comparing the two values can be a little hard to wrap your head around.  I like to think of it this way: if the total height of the document is tall enough that it can be scrolled, this behavior will apply, otherwise there's no need for it.<br>
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">9.</span>  The last thing we do each time <code>hasScrolled()</code> gets called is to set <code>lastScrollTop</code> equal to <code>scrollTop</code>, which is the current position of the scrollbar on the page.  We do this because we are likely not at the very top of the page each time the function runs, and for our code to work properly we need to be able to accurately indicate where we were on the page the last time the function was called.<br>
+
+Here's our complete JavaScript code:
+
+{% highlight JavaScript %}
+$(document).ready(function() {
+
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('#nav-bar').outerHeight();
+
+  $(window).scroll(function() {
+    didScroll = true;
+  });
+
+  setInterval(function() {
+    if (didScroll) {
+      hasScrolled();
+      didScroll = false;
+    }
+  }, 50);
+
+  function hasScrolled() {
+    var scrollTop = $(window).scrollTop();
+
+    // Make sure they scroll more than delta
+    if (Math.abs(lastScrollTop - scrollTop) <= delta)
+      return;
+
+    if (scrollTop > lastScrollTop && scrollTop > navbarHeight) {
+      $('#nav-bar').removeClass('nav-bar-down').addClass('nav-bar-up');
+    } else if (scrollTop + $(window).height() < $(document).height()) {
+      $('#nav-bar').removeClass('nav-bar-up').addClass('nav-bar-down');
+    }
+
+    lastScrollTop = scrollTop;
+  }
+
+});
+
+{% endhighlight %}
+
+Let's check out how the scrollbar behaves:
+
+![nav behavior on scroll](/assets/images/nav_bar_scrolling/nav_scroll_behavior.gif){: .center-image}
+
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">One important note: In order for the scrolling behavior to work properly, your HTML document needs to be taller than your browser window.  While I didn't show it in the tutorial, I added several <code><div></code> elements to the HTML, underneath the <code><nav></code> element, with <code><h1></code> and <code><p></code> elements.  You probably noticed them in the above GIF.  This ensures there is plenty to scroll through to see the behavior.</span>
+
+The entire source, which contains the additional <code><div></code> elements is available on [
+my Github page](https://github.com/bpcoxjr/navbar_scrolling).  Feel free to clone it and play around!
+
+Until next time, happy coding!

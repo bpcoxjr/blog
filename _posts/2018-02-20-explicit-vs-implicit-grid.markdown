@@ -28,7 +28,7 @@ We told the browser we want a grid that establishes its number of columns based 
 
 Now lets take a look at its behavior again:
 
-![minmax grid usage](/assets/images/minmax_usage.gif){: .center-image}
+![minmax grid usage](/assets/images/css_grid/minmax_usage.gif){: .center-image}
 
 Everything behaves as we've learned it should - up until the point we make our viewport too narrow to support all six of our grid items at a minimum of 150px wide on our two defined columns.  But it still works!  At its smallest, our grid can only fit two grid items per row, so once it reaches items five and six, it wraps them onto a new third row, without us even telling it to.  This is an example of the <span style="font-style: italic;">implicit</span> grid at work.
 
@@ -52,7 +52,7 @@ In this particular example, the <code>grid-auto-columns</code> property doesn't 
 
 Let's check out our result, paying special attention to what happens when items five and six wrap to a new implicit third row:
 
-![implicit row usage](/assets/images/implicit_rows.gif){: .center-image}
+![implicit row usage](/assets/images/css_grid/implicit_rows.gif){: .center-image}
 
 What if instead of having the implicit grid create a new third row to hold items five and six, we wanted them to be added to a new implicit column?  We can easily make that specification as well, using the <code>grid-auto-flow</code> property, which can be set to a value of column or row.
 
