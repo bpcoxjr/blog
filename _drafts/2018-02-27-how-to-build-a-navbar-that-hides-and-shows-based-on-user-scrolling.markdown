@@ -64,7 +64,7 @@ Here's the CSS for the nav bar:
 A few things to note here:
 
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">1.</span>  We set width to 100%, so the nav bar spans the full width of our browser window.<br>
-<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">2.</span>  Its position is fixed.
+<span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">2.</span>  Its position is fixed.<br>
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">3.</span>  It has a high <code>z-index</code> value.  This is so that when it is supposed to be visible, we can ensure it overlays all other elements on the page and isn't hidden behind any other elements (The value of 500 is arbitrary.  Just make sure you set <code>z-index</code> to a number higher than that of any other elements).<br>
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">4.</span>  It has a transition value set, which allows it to have a nice smooth animation when it alternates between being hidden and being shown.  Here I set it to half a second each way.<br>
 <span style="font-size: 1.25em; font-weight: bold; color: #ac0863;">5.</span>  This is just a personal preference, but notice how when setting the <code>background</code> to black, I set the fourth value to something less than 1, which allows the nav bar to be slightly transparent when visible, so that the element(s) it covers are just barely visible underneath.  Again, this is just a personal preference, and I don't use it all the time, but I like to use it in many cases.  I encourage you to play around with the actual number and see what you like.<br>
