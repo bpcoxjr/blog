@@ -15,3 +15,5 @@ https://css-tricks.com/complexity/#more-266794
 https://github.com/sindresorhus/modern-normalize
 
 https://github.com/thoughtbot/laptop
+
+https://medium.com/@melissamcewen/who-killed-the-junior-developer-33e9da2dc58c
