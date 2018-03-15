@@ -15,9 +15,9 @@ Welcome to another tutorial.  Today we're going to talk about interacting with C
 Additionally, because of their DOM access, we can interact with CSS variables using JavaScript.  Let's take a look at how we might do that, using just a little bit of code.
 
 {% highlight JavaScript %}
-  let root = document.querySelector(':root');
-  let rootCSS = getComputedStyle(root);
-  let primaryColor = rootCSS.getPropertyValue('--primary-color');
+let root = document.querySelector(':root');
+let rootCSS = getComputedStyle(root);
+let primaryColor = rootCSS.getPropertyValue('--primary-color');
 {% endhighlight %}
 
 Okay, let's look at what is going on here.
