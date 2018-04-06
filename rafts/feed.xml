@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>display: blog</title>
+    <description>Thoughts, tutorials, discussions, and interesting links on front end web development from Durham, North Carolina based front-end developer Patrick Cox</description>
+    <link>https://www.displayblog.io/</link>
+    <atom:link href="https://www.displayblog.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Apr 2018 13:04:53 -0400</pubDate>
+    <lastBuildDate>Fri, 06 Apr 2018 13:04:53 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Thanks for joining me for another weekly roundup!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As always, happy Friday to everyone.  I hope you’ve had a successful, rewarding week in all areas of your life, but especially in the area of web development.  Like I always do, I read a lot this week, and saved a few things that I found value in, and thought you might find value in too!&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;  When it comes to being successful in a web development career, we often think it can be as simple as possessing an ability to stay informed of the latest technologies and be able to learn them quickly, but that’s really just the tip of the iceberg.  You might not immediately think of the more human traits that matter just as much, if not more.  Here’s why empathy matters.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@toddhd/one-simple-trait-that-will-advance-your-software-career-7a88bd505f59&quot;&gt;One Simple Trait That Will Advance Your Software Career&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  Few things in web development can be as useful as the official documentation.  You’ve probably got a huge folder of bookmarks that links to the docs of the various web technologies you use.  What if you could have &lt;strong&gt;ALL&lt;/strong&gt; of the docs within a single resource, right at your fingertips?  You can!  Check out Dev Docs!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devdocs.io/javascript/&quot;&gt;Dev Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;  Looking to possibly revamp your development setup/tooling?  Here’s a great resource that lists more than 40 JavaScript development tools, organized into categories, with descriptions and links to the official site of each tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://da-14.com/blog/ultimate-list-javascript-tools&quot;&gt;The Ultimate List of JS Dev Tools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt;  Single-page applications have been all the rage for the past few years.  But they do have their drawbacks.  Mainly, accessibility, among other issues.  Read this before you build your next single-page app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.craigabbott.co.uk/one-page-applications-are-not-accessible&quot;&gt;Why are one page applications bad?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt;  Any good development company has a style guide: rules for how its developers should format their code so that its appearance across the code base is uniform, and therefore easily understandable for all who read it and work on it.  Here are 13 notable rule in Google’s JavaScript Style Guide.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.freecodecamp.org/google-publishes-a-javascript-style-guide-here-are-some-key-lessons-1810b8ad050b&quot;&gt;13 Key Lessons from Google’s JS Style Guide&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Apr 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-04-06-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-04-06-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;I’m back again with another weekly roundup.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope everyone had a good week, and that you read this week’s post on my three most used JavaScript array methods.  As always, I saved the coolest things I read this week in the world of web development so that I could share them here with you.  Here are the five best things I read this week…&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;  As I mentioned last week, Bootstrap v4 is out, and there are a lot of changes.  Thankfully, this week I discovered a free course that will bring you up to speed on all the changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://scrimba.com/g/gbootstrap4&quot;&gt;Learn Bootstrap 4 for Free&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  Okay, so this one is a video, not an article, but I’m sharing it because it’s really interesting and informative.  In this presentation, Joe Cocco, Engineering Manager at San Francisco based DocuSign, provides a thorough look at what it was like for the company to migrate their codebase over to ReactJS.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l5K01MAi2Ek&amp;amp;feature=youtu.be&quot;&gt;DocuSign’s Road to React&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;  We cue up Netflix with just a click or two of our remotes, shuffle through endless possibilities, choose one, click our remotes once more, and the stream instantly starts.  It’s so easy and seems so magical.  But what happens on the other end of the endless miles of fiber optic cable that makes it all work so seamlessly?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/refraction-tech-everything/how-netflix-works-the-hugely-simplified-complex-stuff-that-happens-every-time-you-hit-play-3a40c9be254b&quot;&gt;How Netflix Works&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt;  In the front-end world, things change extremely quickly.  Sometimes it seems like there are no frameworks and libraries emerging on a daily basis.  Here’s an overview of where things currently stand in the JavaScript ecosystem.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.imaginarycloud.com/blog/a-javascript-ecosystem-overview/&quot;&gt;A JavaScript EcoSystem Overview&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt;  Really want to throw on your headphones and be productive, but don’t want the music to be too distracting?  The folks over at freeCodeCamp have set up a 24/7 livestream on Youtube of music that is the perfect background noise to you coding sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=R0MDkT-Cgec&quot;&gt;freeCodeCamp Radio&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-03-30-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-03-30-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>The JavaScript Array Methods I Use Most</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;A Quick Look at Some Powerful JavaScript Array Methods&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’ve been developing with JavaScript for any measurable amount of time, you should be familiar with arrays.  Arrays conveniently let us store ordered collections.&lt;/p&gt;
+
+&lt;p&gt;An array can be declared two ways:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arrayOne&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arrayTwo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I don’t know about you, but I almost always use the second method to declare an array.  In fact, I can’t recall a time I’ve used the first.  But if you like to do it that way, knock yourself out!&lt;/p&gt;
+
+&lt;p&gt;Here’s an array of cars we’ll use in the &lt;code&gt;.forEach()&lt;/code&gt; example below:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;BMW&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Volvo&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Audi&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Mercedes&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Fiat&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Array.forEach()&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;.forEach()&lt;/code&gt; method can be used in place of the humble &lt;code&gt;for&lt;/code&gt; loop.  This method simply loops through each item in the array and leaves it up to you, the developer, to determine what to do with each of those items.  Let’s use it to operate on our &lt;code&gt;cars&lt;/code&gt; array.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s the result:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;BMW&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Volvo&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Audi&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Mercedes&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Fiat&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Array.map()&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;.map()&lt;/code&gt; method also loops through the entire array, and returns a &lt;strong&gt;new&lt;/strong&gt; array whose contents have been manipulated based upon the return statement(s) that are specified in the return statement of the callback function.&lt;/p&gt;
+
+&lt;p&gt;Let’s use &lt;code&gt;.map()&lt;/code&gt; on an array of numbers.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbersCubed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;pow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If we run &lt;code&gt;console.log(numbersCubed)&lt;/code&gt; this is the result:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;216&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s quickly talk about what’s going on here.  We declared a new variable, &lt;code&gt;numbersCubed&lt;/code&gt;, and set it equal to calling &lt;code&gt;.map()&lt;/code&gt; on our original numbers array.  And inside &lt;code&gt;.map()&lt;/code&gt; we returned a new array made up of the result of using &lt;code&gt;Math.pow()&lt;/code&gt; to cube each of the original numbers.&lt;/p&gt;
+
+&lt;p&gt;Side note: If you’re not familiar with all of the various methods JavaScript’s &lt;code&gt;Math&lt;/code&gt; object offers, &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math&quot;&gt;check this out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Array.filter()&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Array.filter()&lt;/code&gt; does exactly what it sounds like: it &lt;strong&gt;filters&lt;/strong&gt; arrays based on whatever condition we specify in the callback function.  If an array element &lt;strong&gt;does not&lt;/strong&gt; pass the condition, it gets filtered out, and the new array that gets returned only includes elements that pass the condition.&lt;/p&gt;
+
+&lt;p&gt;Here’s another array we’ll &lt;code&gt;.filter()&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;evensAndOdds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s filter out the odd numbers and return a new array that only includes even numbers.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;evensOnly&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;evensAndOdds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;What’s going on here is pretty simple.  We declare a new array, &lt;code&gt;evensOnly&lt;/code&gt; and set it equal to calling &lt;code&gt;.filter()&lt;/code&gt; on our original array.  Inside &lt;code&gt;.filter()&lt;/code&gt; we use a simple &lt;code&gt;if/else&lt;/code&gt; statement to &lt;code&gt;return&lt;/code&gt; only the numbers we determine to be even, and thus we end up with a new array that only includes the even numbers from the original array.&lt;/p&gt;
+
+&lt;p&gt;This:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;evensOnly&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Results in this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And there you have it: three extremely useful JavaScript array methods.  And those three are just the tip of the iceberg.  There are a ton more that you can read about &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope you learned something today that you can use going forward.  Thanks for reading!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/the-javascript-array-methods-i-use-most</link>
+        <guid isPermaLink="true">https://www.displayblog.io/the-javascript-array-methods-i-use-most</guid>
+        
+        <category>arrays</category>
+        
+        <category>javascript</category>
+        
+        <category>tutorial</category>
+        
+        <category>guide</category>
+        
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Welcome to another edition of the weekly roundup!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been a hectic week for me, as evidenced by the lack of a tutorial post this week.  I’m actively hunting for a new full-time role, and that’s taken up a lot of my free time that would otherwise be spent publishing posts on this site.  But don’t worry, I have a post for next week planned on my most frequently used JavaScript array methods, and how you can harness their powers to be used in your own projects.&lt;/p&gt;
+
+&lt;p&gt;As always, I read some cool stuff this week, and bookmarked it all to share here with you.  Here’s the five best web-development- related things I read this week…&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;  Speaking of looking for a new role, I found a really motivating piece written by a junior JS developer who quit his full-time job, traveled around China for a few months and committed to learning full-stack development, and doubled his salary in a new role upon returning to the United States.  While I recognize this approach is not feasible for everyone, or maybe almost no one, it worked for him, and the article is inspiring for those among us always looking to better ourselves and further our careers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.freecodecamp.org/how-i-doubled-my-salary-in-5-months-and-got-an-amazing-job-1110d1779e0b&quot;&gt;How I Doubled My Salary in Five Months and Got an Amazing Job&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  Static sites seem to be all the rage these days.  There are many tools available to build static sites (this site is built on &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;), and there are new ones popping up all the time it seems (see &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;).  Static sites are, as their name implies, static, meaning the content stays the same.  Sure, there may be animation and responsiveness, but that’s about it.  If you maintain static sites, or are looking to build one or many, I recommend this piece that offers a lot of cool tips on how to set them up to run blazingly fast!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/optimizing-a-static-site-d5ab6899f249&quot;&gt;10x Performance Increases: Optimizing a Static Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;  Bootstrap version 4 is out.  What’s new?  What’s been deprecated, and what’s been tweaked?  Learn the key features in five minutes flat.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.&quot;&gt;https://medium.freecodecamp.org/learn-bootstrap-4-in-5-minutes-da94728efe41&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt;  I found this tutorial rather fascinating.  One developer shows how to build a rotating globe of the earth using JavaScript’s canvas API, and explains the challenges the task presented, and how they were overcome.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://vez.website/a/?Making%20the%20World%20From%20Scratch&quot;&gt;Making the World from Scratch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt;  Facebook has been in the news a lot lately, and not for anything good.  We recently learned of the firm Cambridge Analytica, which used Facebook users’ own data against them, weaponizing it to manipulate the 2016 election.  I read recently that if we actually took the time to read all the terms and conditions we agree too over the course of a calendar year, it would take 76 days.  Let’s be honest, we’re not reading any of that stuff, even though we say we care about our privacy.  We’re just checking boxes and clicking buttons in an effort to get through the mind-numbing legalese as quickly as possible.  In this piece, author Dave Pell argues one simple idea: never share anything on the internet unless you are willing to accept that one day it may become public.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@davepell/the-only-privacy-policy-that-matters-2f488d5646f6&quot;&gt;The Only Privacy Policy That Matters&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-03-23-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-03-23-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Welcome to another edition of the weekly roundup!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for stopping by the blog again.  Here are five cool things I read this week and saved to share with you.  I hope you find them useful!&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;  I hope my CSS grid series a few weeks ago came in handy.  One thing we didn’t really discuss was CSS grid vs Flexbox.  When should you use one over the other?  Plus, did you know you can use them together (Shameless plug: I recently used them together on my &lt;a href=&quot;https://www.trianglecoffeefinder.com&quot;&gt;Triangle Coffee Finder&lt;/a&gt; project)?  Here’s a great piece from Hackernoon that explains some of the differences, when to use one over the other, and how to use them together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf&quot;&gt;Grid vs Flexbox&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  In last week’s weekly roundup I linked you a piece on getting started with Git.  If you read that, feel comfortable with its concepts, and remain curious, you’ll want to check this one out.  Here’s five key Git concepts for you to learn &lt;span style=&quot;font-style: italic;&quot;&gt;the hard way&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/&quot;&gt;Learn 5 key Git Concepts the Hard Way&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;  No front-end JS library has risen to prominence faster than React, thanks largely in part to it being created and supported by the engineers at Facebook.  You’re sure to see it in a large number of front-end web development job postings, and its growth is also reflected in recent surveys of industry professionals concerning the tools they use.  Thinking about learning React in 2018?  Tyler McGinnis’ tutorial is a great place to start.  He also has a paid course on React that I have personally paid for, completed, and highly recommend.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&quot;&gt;A Comprehensive Guide to Learning React&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt;  If you’ve been developing for any non-trivial amount of time you no doubt have countless plugins installed on your text editor of choice.  One of the most popular that I use, and I’m betting you use too, is ESLint. It’s a truly great tool to hook up to a build tool like Gulp or Grunt to use at run time to find any issues with your JavaScript files, and it does a great job of reporting errors to you in a clear, concise manner.  We use numerous plugins like these all the time without giving them much thought past tweaking the settings to get them meet our needs.  But have you ever stopped and wondered who is behind their creation?  Or how they were conceived and brought to fruition?  This is the origin story of ESLint.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nczonline.net/blog/2018/02/the-inception-of-eslint/&quot;&gt;The Inception of ESLint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt;  One of the most painful things to do as a developer is to think about how to design forms, user account creation processes, or anything similar that requires taking a user through a series of steps.  It can be doubly painful for end users.  If you’re anything like me, at one point or another in your time of using the internet, you’ve closed out of a browser window before completing the signup process for some sort of account, order process, etc. simply because it was too long, or too confusing, or too [insert pain point here].  DriverJS is here to help you solve those sorts of issues for your users, by elegantly meshing with your applications to steer the attention of your users through multi-step processes such as these.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kamranahmed.info/driver&quot;&gt;DriverJS&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-03-016-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-03-016-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Using JavaScript to Interact with CSS Variables</title>
+        <description>&lt;h1 id=&quot;span-stylecolor-ac0863continuing-our-introductionspan&quot;&gt;&lt;span style=&quot;color: #ac0863;&quot;&gt;Continuing our introduction…&lt;/span&gt;&lt;/h1&gt;
+
+&lt;p&gt;Welcome to another tutorial.  Today we’re going to talk about interacting with CSS variables using JavaScript.  If you’ll recall from our &lt;a href=&quot;http://www.displayblog.io/a-quick-intro-to-css-variables&quot;&gt;introduction to CSS variables post&lt;/a&gt;, one of the big advantages of the advent of CSS variables is their access to the DOM.  We looked at how this meant we could easily update the value of a variable, using a media query as an example.&lt;/p&gt;
+
+&lt;p&gt;Additionally, because of their DOM access, we can interact with CSS variables using JavaScript.  Let’s take a look at how we might do that, using just a little bit of code.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;:root&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rootCSS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getComputedStyle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;primaryColor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rootCSS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getPropertyValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;--primary-color&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Okay, let’s look at what is going on here.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;We use the built-in JS method &lt;code&gt;querySelector&lt;/code&gt; to select the &lt;code&gt;:root&lt;/code&gt;, which is the highest level parent element present in the DOM.  This is almost always going to be &lt;code&gt;&amp;lt;html&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  We use another built-in JS method, &lt;code&gt;getComputedStyle()&lt;/code&gt; to grab all the CSS styles on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;We grab the &lt;code&gt;--primary-color&lt;/code&gt; variable and store it in a local variable so that we can operate on it.&lt;/p&gt;
+
+&lt;p&gt;If we were to run &lt;code&gt;console.log(primaryColor)&lt;/code&gt; the hex value of the color would be printed to the console (i.e. &lt;code&gt;#ffffff&lt;/code&gt; if it were white).&lt;/p&gt;
+
+&lt;p&gt;Changing the value of &lt;code&gt;--primary-color&lt;/code&gt; couldn’t be easier using yet another built-in JS method, &lt;code&gt;setProperty()&lt;/code&gt;.  Here’s how:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setProperty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;--primary-color&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;#000000&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So why would we want to do something like this?  I can give you a real world, popular example:  The Twitter app on your phone.  The settings have a ‘Night Mode’ switch you can use to make it easier to read in the dark.  All it does is swap a white background for a black one, and black print for white, and BOOM!…it’s easier on the eyes.&lt;/p&gt;
+
+&lt;p&gt;Using the above code one could easily create a &lt;code&gt;html&lt;/code&gt; toggle that calls a function that runs the above code when clicked, thus changing the primary color, then reversing the process when clicked again.&lt;/p&gt;
+
+&lt;p&gt;There are of course countless other use cases for manipulating CSS variables in the DOM with JavaScript.  Give it a try on your next project!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/using-js-to-interact-with-css-variables</link>
+        <guid isPermaLink="true">https://www.displayblog.io/using-js-to-interact-with-css-variables</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        
+        <category>css,</category>
+        
+        <category>javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>Introducing Triangle Coffee Finder</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Today I’m excited to unveil Triangle Coffee Finder!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If you read last week’s roundup post, I explained why I hadn’t posted a tutorial earlier in the week: I was working on a fun little side project.  Well, today I’m happy to show it off to you!&lt;/p&gt;
+
+&lt;p&gt;The premise of Triangle Coffee Finder is simple: answer a few short questions about the type of coffee shop you’re looking for in Raleigh, Durham, or Chapel Hill, and get the best possible recommendation in return.  And if the app can’t find a perfect match, it will search Yelp! for you.  I think you’ll find it’s as fun to use as it is simple.&lt;/p&gt;
+
+&lt;p&gt;On the surface it doesn’t appear overly fancy, but I did incorporate some emerging technology to make it happen.  The application uses  web component specifications for HTML imports and HTML templates.  You can read more about those &lt;a href=&quot;https://www.webcomponents.org/introduction#html-imports&quot;&gt;here&lt;/a&gt;.  Simply put, the application serves up coffee shop recommendations with ease by putting HTML templates inside of other HTML templates on demand.  Because web components are still rather new and haven’t been widely adopted, &lt;a href=&quot;https://www.webcomponents.org/polyfills/&quot;&gt;polyfills&lt;/a&gt; are used to make everything work seamlessly across all web browsers (Right now web components are supported by Chrome and Opera, but not so much by Firefox and Safari).&lt;/p&gt;
+
+&lt;p&gt;Other technology used includes vanilla JavaScript, &lt;a href=&quot;https://www.jquery.com&quot;&gt;jQuery&lt;/a&gt;, &lt;a href=&quot;https://www.sass-lang.com&quot;&gt;Sass&lt;/a&gt;, and &lt;a href=&quot;https://www.gulpjs.com&quot;&gt;Gulp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Without further delay, here it is…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.trianglecoffeefinder.com&quot;&gt;Triangle Coffee Finder&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Mar 2018 00:00:00 -0400</pubDate>
+        <link>https://www.displayblog.io/introducting-triangle-coffee-finder</link>
+        <guid isPermaLink="true">https://www.displayblog.io/introducting-triangle-coffee-finder</guid>
+        
+        <category>css</category>
+        
+        <category>grid</category>
+        
+        <category>css grid</category>
+        
+        <category>html</category>
+        
+        <category>responsive</category>
+        
+        <category>javascript</category>
+        
+        <category>jquery</category>
+        
+        <category>sass</category>
+        
+        <category>gulp</category>
+        
+        <category>web components</category>
+        
+        <category>polyfills</category>
+        
+        
+        <category>html,</category>
+        
+        <category>css,</category>
+        
+        <category>css</category>
+        
+        <category>gridjavascript,</category>
+        
+        <category>jquery,</category>
+        
+        <category>gulp,</category>
+        
+        <category>sass,</category>
+        
+        <category>web</category>
+        
+        <category>components,</category>
+        
+        <category>polyfills</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Happy Friday, and welcome once again to the weekly roundup!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope everyone had a great week.  It’s been a quiet one here on the blog, as I’m sure you’ve noticed.  Don’t worry, we’ll pick back up next week where we loft off with our tutorial series on CSS variables.&lt;/p&gt;
+
+&lt;p&gt;If you’re wondering why it’s been so quiet around here this week, well, I’ve been working on a fun new side project that I hope to go live with early next week if not by the end of this weekend.  For all readers in the triangle area of North Carolina, if you love a good cup of coffee and hanging out in fun, quirky, hidden treasure sort of cafes, you’ll want to stay tuned for that!&lt;/p&gt;
+
+&lt;p&gt;While I didn’t have time to work on a new tutorial post this week, I did bookmark a few cool things I read around the web that I thought were worth sharing with you.&lt;/p&gt;
+
+&lt;p&gt;Here are your five links for this week:&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt;  Much has been written in opinion pieces around the internet and in medical studies the past few years about how technology is taking over our lives, and the negative effects that can come with that.  Recently, Silicon Valley has started to admit that while their intentions are usually good, the design of their products can cause addiction.  In New York Times Magazine, author John Herrman wonders if its even possible at this point to put the lid back on Pandora’s box, and if systems and software meant to turn attention into money can even be reformed.  But if they can, the tiny red dots fighting for our attention are a good place to start.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/new-york-times-magazine/how-tiny-red-dots-took-over-your-life-3d650facab4a&quot;&gt;How Tiny Red Dots Took Over Your Life&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt;  Github can be an intimidating and frustrating place for beginning and intermediate developers.  This piece breaks down the basic features of the site and will have you up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.freecodecamp.org/a-developers-introduction-to-github-1034fa55c0db&quot;&gt;A Developer’s Introduction to Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt;  Speaking of things that can be frustrating, even the senior most developers can fall victim to the wacky behaviors of CSS.  This piece points out some of the more interesting and surprising quirks you’re bound to encounter when dealing with cascading style sheets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@peedutuisk/lesser-known-css-quirks-oddities-and-advanced-tips-css-is-awesome-8ee3d16295bb&quot;&gt;Lesser Known CSS Quirks &amp;amp; Advanced Tips&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt;  Often when we talk about great web design we tend to overlook the importance of the colors we use. While working on my latest side project, I was searching for some color inspiration, and was in need of three or four colors I could use to style my application.  I stumbled upon Flat UI Colors and immediately booked marked it.  If you too are searching for the perfect shade for a logo, font or header, etc. you’ll do well to check this site out.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://flatuicolors.com&quot;&gt;Flat UI Colors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt;  When we set out learning to code, we often think of the traditional ways to teach ourselves: big, thick mind-numbingly boring books, video tutorials, and code along challenges on various websites.  One think you may not have considered is podcasts.  I recently stumbled upon the Syntax podcast, which has quickly become a fun way for me to pick up new bits of knowledge.  The best way about learning this way is it can be much more fun that the other methods, and you can listen to it in small pieces when it’s convenient for you - when you’re in the car or on the treadmill, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://syntax.fm&quot;&gt;Syntax Podcast&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Mar 2018 00:00:00 -0500</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-03-09-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-03-09-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>Weekly Roundup</title>
+        <description>&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;Welcome once again to the weekly roundup!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Happy Friday! I hope your week has gone well. As usual, I’ve done a lot of reading and learning this week, and saved some links to the best things I came across so that I can share them with you. Check them out in your free time this weekend!&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;1.&lt;/span&gt; My four-part series on CSS grid was enough to make you dangerous. If you’re ready to take that a step farther (like I am), here’s ten cool examples of cool things people have done with the technology. Best of all, they’re in CodePen, so you can play around with them!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://speckyboy.com/10-handy-css-grid-code-snippets/&quot;&gt;10 Handy CSS Grid Code Snippets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;2.&lt;/span&gt; It seems with each new day there’s a new technology emerging that’s supposed to make our jobs as developers easier, but often results in the opposite. Yes, we have more power at our fingertips and can therefore achieve more, but at a cost of greater complexity. Chris Coyier, founder of CSS-Tricks, opines about what it all means in this esssay.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/complexity/#more-266794&quot;&gt;On Complexity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;3.&lt;/span&gt; As developers, we’ve probably all used CSS resets in our CSS files before. They’re the snippets that attempt to neutralize the styles imposed by each individual flavor of browser in an attempt to make our applications render the way we intend them to across all platforms. One of the most popular of those the past few years has been Normalize. Now Sindre Sorhus, an open source developer, has sought to improve on that, by releasing modern-normalize.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/modern-normalize&quot;&gt;Modern Normalize&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;4.&lt;/span&gt; One of the most painful things about being a web developer is getting our development environment properly set up. What if I told you a powerful Mac web development environment can be yours with a single terminal command? Check out laptop, from Thoughtbot:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/thoughtbot/laptop&quot;&gt;Laptop&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 1.25em; font-weight: bold; color: #ac0863;&quot;&gt;5.&lt;/span&gt; Getting your first job as a junior-level developer can be daunting, and even seem impossible at times. There are tons of development job postings all over the internet, but very few for junior devs. What does it mean? At Medium, Melissa McEwen explains why it’s a sign the industry is broken.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@melissamcewen/who-killed-the-junior-developer-33e9da2dc58c&quot;&gt;Who Killed the Junior Developer?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Mar 2018 00:00:00 -0500</pubDate>
+        <link>https://www.displayblog.io/weekly-roundup-03-02-2018</link>
+        <guid isPermaLink="true">https://www.displayblog.io/weekly-roundup-03-02-2018</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>links</category>
+        
+        
+        <category>links</category>
+        
+      </item>
+    
+      <item>
+        <title>A Quick Intro to CSS Variables</title>
+        <description>&lt;h1 id=&quot;span-stylecolor-ac0863a-brief-but-informative-lookspan&quot;&gt;&lt;span style=&quot;color: #ac0863;&quot;&gt;A brief, but informative look.&lt;/span&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1.25em; color: #ac0863;&quot;&gt;The History&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;CSS variables have been around for quite a while now.  They were originally introduced to the specifications in 2012 by the &lt;a href=&quot;https://www.w3.org&quot;&gt;W3C&lt;/a&gt;.  However, like any new advancement in the digital world, it took some time before the addition of variables into pure CSS was adopted by all the major browsers.  Initially, only Chrome and Firefox supported CSS variables.&lt;/p&gt;
+
+&lt;p&gt;But in 2014, the syntax for CSS variables improved.  This prompted Mozilla, makers of Firefox, to push forward with their support.  Meanwhile Google, the makers of Chrome, pulled most of their support, opting to wait for the basics of the syntax to be agreed upon before they went all in with their support.  Even as recent as 2015 support across all major browsers hovered around a lowly 9%.  Sometime in 2016, most of the major browser creators jumped on board, and at the time of this posting world-wide browser support stands at &lt;a href=&quot;https://www.caniuse.com/#search=css%20variables&quot;&gt;87%&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/css_variables/css_variables_support.png&quot; alt=&quot;CSS Variables Browser Support Rate&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1.25em; color: #ac0863;&quot;&gt;Why CSS Variables?&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’ve ever used a style sheet language like &lt;a href=&quot;https://sass-lang.com&quot;&gt;Sass&lt;/a&gt; or &lt;a href=&quot;https://lesscss.org&quot;&gt;Less&lt;/a&gt;, you already know about many of the features they offer, and how convenient they can be.  Among their many features is the ability to store a CSS property and its value, like &lt;code&gt;font-size&lt;/code&gt; or &lt;code&gt;color&lt;/code&gt;, in a variable of our choosing, then use that variable wherever we want throughout our style files.  And if we need to change a property’s value, we only have to do it in one place, which saves the time and effort of having to search through an entire file.  With the ability to use variables this way already in existence, why did we need CSS variables, and what is their benefit?&lt;/p&gt;
+
+&lt;p&gt;Learning the syntax of Sass or Less is simple.  If you have much familiarity with pure CSS at all, you can learn Sass or Less in a couple of hours.  However, learning to compile them can be a real pain.  If you’ve never used them, your’e probably wondering what I’m even talking about when I refer to having to compile them.  While we as users can understand their respective syntaxes, browsers are not equipped to understand what they mean, and therefore we either need to find, install, and learn how to use a plug-in for our text editor that can handle the conversation for us, or we need to take the time to learn how to use a build tool like &lt;a href=&quot;https://gulpjs.com&quot;&gt;Gulp&lt;/a&gt;, which is great for your workflow, but can take a considerable amount of time to learn and set up in your project.  And if your project is relatively simple, it can be overkill.  One of the great benefits of CSS variables is that we need no special tools to transpile them into something browsers can understand.&lt;/p&gt;
+
+&lt;p&gt;Another advantage of CSS variables is that they have access the DOM (document object model), whereas Sass or Less Variables do not.  We will talk more about what this means and how it benefits us as developers, momentarily.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1.25em; color: #ac0863;&quot;&gt;How to Declare a CSS Variable&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Declaring a CSS variable is a little bit different, because the first step, before we even write it, is to decide what its scope should be (i.e. should it be a global variable, and therefore available throughout the doccument?  Or should it be a local variable, scoped only to the element its declared on?)&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1em; color: #ac0863;&quot;&gt;Global Variables&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If we want it to be a global variable, we declare it on the &lt;code&gt;:root&lt;/code&gt;, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nd&quot;&gt;:root&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;--primary-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#FFDC00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This probably looks very familiar, with the exception of one thing: the two dashes.  You can name a variable whatever you want, the only requirement is that it be prefixed with &lt;code&gt;--&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To access the variable after declaring it, we use the &lt;code&gt;var()&lt;/code&gt; function.  Here’s what that looks like:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.header&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;--primary-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We simply pass the variable we declared to the &lt;code&gt;var()&lt;/code&gt; function.  Easy, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1em; color: #ac0863;&quot;&gt;Local Variables&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The CSS variables spec also gives us the ability to declare variables that are local in scope.  This means they are only accessible to the element they are declared on, plus any children.  This makese sense if you have, say, a color you are only using on one element in an application, and nowhere else.&lt;/p&gt;
+
+&lt;p&gt;Let’s say we have a div with a class of container:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;And we want to write a local variable available to just this div:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;--border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#808080&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;--border-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There you have it: a variable that stores a color, and is only accessible to &lt;code&gt;.container&lt;/code&gt;.  If we were to try to use the variable on any other element in our application, the browser would simply ignore it when parsing the CSS files.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bold; font-size: 1.25em; color: #ac0863;&quot;&gt;DOM Access&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier, a benefit of CSS variables is their access to the DOM.  This means we can do things like update the value of a CSS variable directly from the DOM.  Let’s say we want to change font sizes based on screen width.  Instead of having two different variables for a primary &lt;code&gt;font-size&lt;/code&gt;, we can just update the value of the variable that stores that size.&lt;/p&gt;
+
+&lt;p&gt;Take a look:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nd&quot;&gt;:root&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;py&quot;&gt;--primary-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;720px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nd&quot;&gt;:root&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;--primary-font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;By writing one simple media query, we’re able to update the &lt;code&gt;font-size&lt;/code&gt; across our entire application to handle changes in the browser window size of our users!  I think you’ll agree that was quick and easy.&lt;/p&gt;
+
+&lt;p&gt;Well, that’s it for our quick introduction to CSS variables.  Even by just dipping our toe in the pool, we’ve learned how powerful they can be, but we’ve only scratched the surface.  In our next post, we’ll take a look at how to interact with CSS variables via JavaScript.&lt;/p&gt;
+
+&lt;p&gt;As always, until next time, happy coding…&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+        <link>https://www.displayblog.io/a-quick-intro-to-css-variables</link>
+        <guid isPermaLink="true">https://www.displayblog.io/a-quick-intro-to-css-variables</guid>
+        
+        <category>front end development</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        
+        <category>css</category>
+        
+      </item>
+    
+  </channel>
+</rss>
